@@ -1,13 +1,167 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 20 May 2019 19:53:50 GMT</lastBuildDate><item><title><![CDATA[A Practical guide to CD Java Applications]]></title><description><![CDATA[At JAX London a few weeks ago I attended the talk of @danielbryantuk about Continuous Delivery With Containers, where he gave a few samples…]]></description><link>https://vitorreis.com//a-practical-guide-to-cd-java-applications/</link><guid isPermaLink="false">https://vitorreis.com//a-practical-guide-to-cd-java-applications/</guid><pubDate>Thu, 19 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;At JAX London a few weeks ago I attended the talk of &lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; about Continuous Delivery With Containers, where he gave a few samples of his book &lt;a href=&quot;https://www.nginx.com/resources/library/containerizing-continuous-delivery-java/&quot;&gt;Containerizing Continuous Delivery in Java&lt;/a&gt; (get a free copy on the link).&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com/</link><generator>RSS for Node</generator><lastBuildDate>Mon, 20 May 2019 20:11:00 GMT</lastBuildDate><item><title><![CDATA[A Practical guide to CD Java Applications]]></title><description><![CDATA[At JAX London a few weeks ago I attended the talk of @danielbryantuk about Continuous Delivery With Containers, where he gave a few samples…]]></description><link>https://vitorreis.com//a-practical-guide-to-cd-java-applications/</link><guid isPermaLink="false">https://vitorreis.com//a-practical-guide-to-cd-java-applications/</guid><pubDate>Thu, 19 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;At JAX London a few weeks ago I attended the talk of &lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; about Continuous Delivery With Containers, where he gave a few samples of his book &lt;a href=&quot;https://www.nginx.com/resources/library/containerizing-continuous-delivery-java/&quot;&gt;Containerizing Continuous Delivery in Java&lt;/a&gt; (get a free copy on the link).&lt;/p&gt;
 &lt;p&gt;The book it’s easy to read, thin and straight to the point, in 53 pages the author gives a small review/context about the topic there discussed, and demonstrates conceptually and practically how to implement a flow of continuous delivery of a java application using Docker as container technology and Jenkins as tool for automation of the flow, the book is not about how to write Dockerfiles for this purpose the author recommends &lt;a href=&quot;http://www.oreilly.com/programming/free/docker-for-java-developers.csp&quot;&gt;Docker for Java Developers&lt;/a&gt; (Also available for free in the link) from Arun Gupta. The author flags the questions and important concepts that you should consider while implementing such a flow, he raises our awareness on common mistakes but this is just the tip of the iceberg, it’s a nice starting point on the topic.&lt;/p&gt;
 &lt;p&gt;In the real world, your company might be using other tools for continuous integration (e.g.: CircleCI, Travis) and you might have to adapt the proposed flow to the resources that your tool give to you, also if your cluster runs inside a VPN you may have to handle the security implications of your CI/CD tool connecting in the VPN. I felt that the author stopped in the “staging/test” environment, I missed comments about a pipeline/barrier mechanism for the production environment.&lt;/p&gt;
 &lt;p&gt;Recommended read for who is considering to adopt this flow and don’t have nothing similar implemented yet.&lt;/p&gt;
-&lt;p&gt;Kudos to the author for the useful &lt;a href=&quot;https://github.com/danielbryantuk/oreilly-docker-java-shopping&quot;&gt;open source repository&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building Scalable APIs with AWS API Gateway]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogWe strongly believe that is important to keep up to date in our tech stack and be close…]]></description><link>https://vitorreis.com//building-scalable-apis-with-aws-api-gateway/</link><guid isPermaLink="false">https://vitorreis.com//building-scalable-apis-with-aws-api-gateway/</guid><pubDate>Fri, 16 Sep 2016 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Kudos to the author for the useful &lt;a href=&quot;https://github.com/danielbryantuk/oreilly-docker-java-shopping&quot;&gt;open source repository&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Jax London 2017 - Conference Highlights]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogIn October 2017 some of the top tech companies got together in the JAX London a…]]></description><link>https://vitorreis.com//jax-london-2017/</link><guid isPermaLink="false">https://vitorreis.com//jax-london-2017/</guid><pubDate>Sun, 15 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Originally published at &lt;a href=&quot;https://tech.foodora.com/jax-london-2017/&quot;&gt;foodora/foodpanda tech blog&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;In October 2017 some of the top tech companies got together in the JAX London a conference about JAVA, microservices, continuous delivery and DevOps, and foodora tech was also there to check the latest releases and trends for the future of JAVA.&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/9006fc47076445fc7e57451f6ff2f570/1f853/tech-team-at-jax.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAU9XLyqVAv/EABoQAQEBAAMBAAAAAAAAAAAAAAECAwAEEjP/2gAIAQEAAQUC0lmcRkPLwVwlTr4fP//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFJr//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAgEBPwHFf//EABwQAAAGAwAAAAAAAAAAAAAAAAABAhARgTJRYf/aAAgBAQAGPwLGwZqplT0SW2//xAAbEAEAAgIDAAAAAAAAAAAAAAABACERMUFRsf/aAAgBAQABPyF3bukQgR2HNzH3zHVZqBSImxPSf//aAAwDAQACAAMAAAAQv+//xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhcf/aAAgBAwEBPxBd8lA5v//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxAK4cv/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFxUf/aAAgBAQABPxAeQugqVoc8I0XkuBTh8uFLuIVNxWbbF8Zg5sSncxHuf//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Tech team at JAX Conf&quot;
+        title=&quot;&quot;
+        src=&quot;/static/9006fc47076445fc7e57451f6ff2f570/c739e/tech-team-at-jax.jpg&quot;
+        srcset=&quot;/static/9006fc47076445fc7e57451f6ff2f570/8ee9c/tech-team-at-jax.jpg 148w,
+/static/9006fc47076445fc7e57451f6ff2f570/ebbe7/tech-team-at-jax.jpg 295w,
+/static/9006fc47076445fc7e57451f6ff2f570/c739e/tech-team-at-jax.jpg 590w,
+/static/9006fc47076445fc7e57451f6ff2f570/5413e/tech-team-at-jax.jpg 885w,
+/static/9006fc47076445fc7e57451f6ff2f570/1f853/tech-team-at-jax.jpg 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
+&lt;p&gt;After 2 days, 13 presentations and lot’s of coffee we returned home with a few new concepts, t-shirts, stickers and the awareness that foodora is in the selected group of companies which attended the event that is using almost all the cutting-edge technologies that were discussed at the event.&lt;/p&gt;
+&lt;h2&gt;Highlights&lt;/h2&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 52.05078125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABqZp5hiZQ/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIAAxESMv/aAAgBAQABBQLCFQ9Us0Y1cQT/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BapD/xAAXEQADAQAAAAAAAAAAAAAAAAAAARES/9oACAECAQE/AU4aP//EABsQAAIBBQAAAAAAAAAAAAAAAAABECEiMUGB/9oACAEBAAY/ArdGUUZ2f//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhQVFxkf/aAAgBAQABPyGeeMonkTwvMgWii/sbKH//2gAMAwEAAgADAAAAEBsf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oACAEDAQE/EB1BC//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxB9BKv/xAAcEAEAAgEFAAAAAAAAAAAAAAABADERECFhodH/2gAIAQEAAT8QCgpcnaB4Fq3kalhjscsTboaZ/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;gke talk&quot;
+        title=&quot;&quot;
+        src=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/c739e/gke-talk.jpg&quot;
+        srcset=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/8ee9c/gke-talk.jpg 148w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/ebbe7/gke-talk.jpg 295w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/c739e/gke-talk.jpg 590w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/5413e/gke-talk.jpg 885w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/1f853/gke-talk.jpg 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+&lt;a href=&quot;https://twitter.com/meteatamel&quot;&gt;@meteatamel&lt;/a&gt; Google Developer Advocate guided us into a tour on the architecture of resilient microservices with Kubernetes, the managed kubernetes that &lt;a href=&quot;https://cloud.google.com/kubernetes-engine/&quot;&gt;Google Cloud Engine (GKE)&lt;/a&gt; offers is extremely easy to setup and might be a good option for small teams that doesn’t have System Engineers to manage a cluster. At foodora nothing new there since we are already using this architecture since January 2017,  but the presentation was a nice review and reaffirms that we are going in the right direction.&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.56640625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFKjE1h8lA//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERID/9oACAEBAAEFAlq35gJlJZgZsT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAIQEQETH/2gAIAQEABj8ChGs7Uuv/xAAaEAEBAAMBAQAAAAAAAAAAAAABACExURFB/9oACAEBAAE/IdlshiXZAzu7Ge0bxd8L/9oADAMBAAIAAwAAABDU/wD/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/EHtKf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCMf//EABsQAQADAQADAAAAAAAAAAAAAAEAETEhYXGh/9oACAEBAAE/EKx2zD1qGgDcCvnZ5z7lDeylTYGzUVtOz//Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;cd in java&quot;
+        title=&quot;&quot;
+        src=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/c739e/cd-in-java.jpg&quot;
+        srcset=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/8ee9c/cd-in-java.jpg 148w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/ebbe7/cd-in-java.jpg 295w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/c739e/cd-in-java.jpg 590w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/5413e/cd-in-java.jpg 885w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/1f853/cd-in-java.jpg 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+&lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; consultant and author of the book Containerizing Continuous Delivery in Java (O’REILLY, 2018) reviewed the flows of CI/CD and discussed the particularities of Java and containers, Oracle is going all in supporting containerized apps with Java 9, the ability of run an optimized JRE with only the resources that your application needs is on our way (see java 9 modules)&lt;/p&gt;
+&lt;p&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 55.56640625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABuxrYQ3FAv//EABoQAAMBAAMAAAAAAAAAAAAAAAECEQMAEBP/2gAIAQEAAQUCHiyMmUXDMikct6//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BrX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8BjNf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASECEDFhkf/aAAgBAQAGPwJwuGzNJDv/AP/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVHx/9oACAEBAAE/IcxlkdsQPQvb+wLoWbFcm5c//9oADAMBAAIAAwAAABCXD//EABcRAQADAAAAAAAAAAAAAAAAAAARIVH/2gAIAQMBAT8Qshj/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFh/9oACAECAQE/EIU0f//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExQXGR/9oACAEBAAE/EA+Z1kDZ0fTDb1eFJjtyQWt/GDFCUPcaVlbvLe7+mf/Z&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;jdk release roadmap&quot;
+        title=&quot;&quot;
+        src=&quot;/static/159e191cfef0f68528cf031186f6b8a9/c739e/jdk-release-roadmap.jpg&quot;
+        srcset=&quot;/static/159e191cfef0f68528cf031186f6b8a9/8ee9c/jdk-release-roadmap.jpg 148w,
+/static/159e191cfef0f68528cf031186f6b8a9/ebbe7/jdk-release-roadmap.jpg 295w,
+/static/159e191cfef0f68528cf031186f6b8a9/c739e/jdk-release-roadmap.jpg 590w,
+/static/159e191cfef0f68528cf031186f6b8a9/5413e/jdk-release-roadmap.jpg 885w,
+/static/159e191cfef0f68528cf031186f6b8a9/1f853/jdk-release-roadmap.jpg 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+&lt;a href=&quot;https://twitter.com/DonaldOJDK&quot;&gt;@DonaldOJDK&lt;/a&gt; Senior Director of Product Management for Oracle talked about the new release cycles of java and how the language will move forward faster than ever with a new release each 6 months. There will be versions that will not be maintained for longer which will force the companies that choose this path to always upgrade the java version of their projects, but if your company is more conservative you still have the option to stay in the versions that are long time supported.&lt;/p&gt;
+&lt;p&gt;It’s a common agreement that our team would enjoy it more if the speakers had dive deep into the topics, but it’s also understandable that due to the small duration of the sessions it’s challenging to do so. Now it’s time to share the knowledge internally with teams and prepare towards the future of fast pace java releases.&lt;/p&gt;
+&lt;p&gt;Happy coding.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building Scalable APIs with AWS API Gateway]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogWe strongly believe that is important to keep up to date in our tech stack and be close…]]></description><link>https://vitorreis.com//building-scalable-apis-with-aws-api-gateway/</link><guid isPermaLink="false">https://vitorreis.com//building-scalable-apis-with-aws-api-gateway/</guid><pubDate>Fri, 16 Sep 2016 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Originally published at &lt;a href=&quot;https://tech.foodora.com/building-scalable-apis-with-aws-api-gateway&quot;&gt;foodora/foodpanda tech blog&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We strongly believe that is important to keep up to date in our tech stack and be close to the tech community. Therefore foodpanda hosted the AWS User Group Berlin edition of November 2016.
 At this event, we were invited to share our experience using serverless architecture with AWS API Gateway.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&quot;./building-scalable-apis-photo.jpeg&quot; alt=&quot;Foodpanda Tech speaking about AWS API Gateway&quot;&gt;&lt;/p&gt;
+&lt;p&gt;
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/530715799b7557e11da19dff106ad62f/1f853/building-scalable-apis-photo.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAFaYLlyFKf/xAAaEAACAwEBAAAAAAAAAAAAAAABAgADEhMz/9oACAEBAAEFAulc2meiggR/GxF3/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BSf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAICAwEAAAAAAAAAAAAAAAABESECEDFx/9oACAEBAAY/Au2iRzrL0dH/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhQVFhkcH/2gAIAQEAAT8hcwoDsPLJcSGNyF1DVfCD3BfRP//aAAwDAQACAAMAAAAQCx//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/EIpO6U//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAHhABAAICAQUAAAAAAAAAAAAAAREhADFRQWFxgZH/2gAIAQEAAT8QatMECE7MpjbkLfb7iEENHEGQSrZMm768+8BMiMDQFKyGoTDAuPOf/9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Foodpanda Tech speaking about AWS API Gateway&quot;
+        title=&quot;&quot;
+        src=&quot;/static/530715799b7557e11da19dff106ad62f/c739e/building-scalable-apis-photo.jpg&quot;
+        srcset=&quot;/static/530715799b7557e11da19dff106ad62f/8ee9c/building-scalable-apis-photo.jpg 148w,
+/static/530715799b7557e11da19dff106ad62f/ebbe7/building-scalable-apis-photo.jpg 295w,
+/static/530715799b7557e11da19dff106ad62f/c739e/building-scalable-apis-photo.jpg 590w,
+/static/530715799b7557e11da19dff106ad62f/5413e/building-scalable-apis-photo.jpg 885w,
+/static/530715799b7557e11da19dff106ad62f/1f853/building-scalable-apis-photo.jpg 1024w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h2&gt;About API Gateway&lt;/h2&gt;
 &lt;p&gt;There is a lot of excitement around serverless architecture and it is for a good reason, abstracting the tedious details of configuration and management of your architecture can make a lot of sense for the right application, the AWS API gateway is one of the several tools that allow you this.&lt;/p&gt;
 &lt;p&gt;Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale, it handles all the tasks involved in accepting and processing up to hundreds thousands of concurrent API calls, including:&lt;/p&gt;
@@ -16,7 +170,40 @@ Authorization and access control
 Monitoring
 API version management&lt;/p&gt;
 &lt;p&gt;You pay only for the API calls you receive and the amount of data transferred out.
-&lt;img src=&quot;./amazon-gateway-api-call-flow.jpg&quot; alt=&quot;Amazon API Gateway call flow&quot;&gt;&lt;/p&gt;
+
+  &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/89c80/amazon-gateway-api-call-flow.jpg&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+  
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 51.707317073170735%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHcSkoqIV//xAAaEAACAgMAAAAAAAAAAAAAAAABEQACITFB/9oACAEBAAEFAoy3Drthn//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAAgMUH/2gAIAQEABj8CJi//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhURAxQf/aAAgBAQABPyEXVwsdGjVwNZodcAvqA5BP/9oADAMBAAIAAwAAABDcD//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ECf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAQEAAwEBAAAAAAAAAAAAAREAITFBYXH/2gAIAQEAAT8Qjfp71l2HIFx58mk2ruus0UZ+aA1aFuKKmem//9k=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;Amazon API Gateway call flow&quot;
+        title=&quot;&quot;
+        src=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/c739e/amazon-gateway-api-call-flow.jpg&quot;
+        srcset=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/8ee9c/amazon-gateway-api-call-flow.jpg 148w,
+/static/fc18f58ae7e7855d2d03491f092da3fa/ebbe7/amazon-gateway-api-call-flow.jpg 295w,
+/static/fc18f58ae7e7855d2d03491f092da3fa/c739e/amazon-gateway-api-call-flow.jpg 590w,
+/static/fc18f58ae7e7855d2d03491f092da3fa/89c80/amazon-gateway-api-call-flow.jpg 615w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  
+  &lt;/a&gt;
+    &lt;/p&gt;
 &lt;h2&gt;Reasons to choose API Gateway&lt;/h2&gt;
 &lt;p&gt;Speed and reduced infrastructure footprint are the 2 biggest reasons to choose to use API Gateway. When you choose API gateway all the servers, security, scaling and monitoring are managed for you.&lt;/p&gt;
 &lt;p&gt;The API gateway is designed for the developer who wants to quickly build APIs while reducing the cross team developing efforts and increase the time to market for your applications.&lt;/p&gt;
