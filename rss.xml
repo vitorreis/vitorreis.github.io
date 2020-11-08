@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 08 Nov 2020 15:44:08 GMT</lastBuildDate><item><title><![CDATA[End to End test automation for web apps]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com//2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com//2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 08 Nov 2020 16:39:16 GMT</lastBuildDate><item><title><![CDATA[End to End test automation for web apps]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com//2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com//2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
+&lt;h2&gt;What makes a test framework good?&lt;/h2&gt;
+&lt;p&gt;In a few words, it must be simple for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting up tests&lt;/li&gt;
+&lt;li&gt;Writing tests&lt;/li&gt;
+&lt;li&gt;Running tests&lt;/li&gt;
+&lt;li&gt;Debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Strategies for testing&lt;/h2&gt;
+&lt;p&gt;There are many strategies for test automation out there, the main ones usually being:&lt;/p&gt;
+&lt;h4&gt;1. Stub Requests&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast / Easy / Flexible&lt;/li&gt;
+&lt;li&gt;No Server / DB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not True E2E&lt;/li&gt;
+&lt;li&gt;Require Fixtures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2. Static User&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Real Session E2E&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Requires Server&lt;/li&gt;
+&lt;li&gt;Seed the DB&lt;/li&gt;
+&lt;li&gt;Shares Test State&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;3. Dynamic User&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No State mutation&lt;/li&gt;
+&lt;li&gt;Flexible / Powerful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DB Setup / Teardown&lt;/li&gt;
+&lt;li&gt;Slow / Complex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The Cypress solution for it&lt;/h2&gt;
+&lt;p&gt;In 2019 I gave a talk for the React Berlin community in which under 25 minutes we discussed common problems, solutions and how Cypress can allow you implementing test automation for web apps in a fast, easy and maintainable way.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.12802498048399%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACqElEQVQoz22Qa0hTYRjHD0GfuhEmczo3r10sG2sup+a0jJIstBDC6+xCSmZZhGVSQvQ1qCjqS0VBNyqkIAwiCtSdM91xZ8fbbBXdtKggKjXN8tdxaWT0wI//+zwP/HjfV9g0pwCnLo2SeRkUz7ZTPCt5KuOz2Sl/ds65KWwUEjldfYnPL18wGuhl8HmAp90qgZ4OhMb4XF47UnliS6E3Oo5eU8wUnkREEtCH02sw4TdOzMNN3LVt4fjqfIb3H2C4qoLKvFVkp1sRboauwTdPT2toNB5dDJ6wcWJ/p9a3LErjcVIO7ngrckQcHuMCZF0c11MrMERauFpezcjZczizM1gcE4Vw25CDPzUNny0DNVnDnomatAJfciadlmQajj/glAT38mvoCNHhiVpEV1g8R21FTJ8RQumGdPbuK2etPZGEyDBNqM+mO9GMstSOz6xh1eSWFBRLKh1LlnHnWANnGn9wP28PqvYSj2khnfr5HE3MJS0zix2bs9m2Lp38LAc5Kx3jN1xPV9JyvFYH3iU2ZH3sFNqMCbijzcimBNqNC/HGLEacFUHbkcuMV/+LAbyurwwOjDA6+h2hITQTv8WMarWjmq34ouNR9EZ8EVEo2uf7dAZUfSRKaDhKiB41zIB72kzkugtBobdpiMsnB/j0cSzYC1dX1iOX1eAqPohYUou09TCS8xDSljqk0lrEohqk7fWI+dW4csqR8ip55HAinngYFLwKDOF+/IXvIz+1bgxhY8FdinZfo2DnDQorb2h5nUKNySysnMhd2r7qJiXVt9hQdoXzF/1B4bu+b7x8NhQUjo1pQr/6ni6lj26lnx5f/5/8m+7J88SuU37Dh7eD/K8EpdWFqnrxKjJyexseuVXLf5D/SQ23W6SpqYnm5hYkyY0oirhcLn4BVQY71hZ317QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;End to End automation testing with Cypress – Vitor Reis&quot;
+        title=&quot;&quot;
+        src=&quot;/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png&quot;
+        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/cf440/youtube_preview.png 148w,
+/static/eeabd525789288eb6733a12cf402649d/d2d38/youtube_preview.png 295w,
+/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png 590w,
+/static/eeabd525789288eb6733a12cf402649d/f9b6a/youtube_preview.png 885w,
+/static/eeabd525789288eb6733a12cf402649d/2d849/youtube_preview.png 1180w,
+/static/eeabd525789288eb6733a12cf402649d/7784a/youtube_preview.png 1281w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;
+Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cypress - &lt;a href=&quot;https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App&quot;&gt;Test a React Todo App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brian Mann – &lt;a href=&quot;https://www.youtube.com/watch?v=5XQOK0v_YRE&quot;&gt;I see your point, but…  - AssertJS 2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Oie]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com//pt/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com//pt/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
 &lt;h2&gt;What makes a test framework good?&lt;/h2&gt;
 &lt;p&gt;In a few words, it must be simple for:&lt;/p&gt;
 &lt;ul&gt;
