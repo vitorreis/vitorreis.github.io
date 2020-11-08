@@ -1,4 +1,81 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com/</link><generator>RSS for Node</generator><lastBuildDate>Tue, 20 Aug 2019 17:26:40 GMT</lastBuildDate><item><title><![CDATA[Implementing Scrum - A case study]]></title><description><![CDATA[BackgroundOn Q3 2018 I started on the journey of building a new cross-functional team for a greenfield project. We started it with a product…]]></description><link>https://vitorreis.com//implementing-scrum-a-case-study/</link><guid isPermaLink="false">https://vitorreis.com//implementing-scrum-a-case-study/</guid><pubDate>Sun, 18 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Background&lt;/h2&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 08 Nov 2020 15:44:08 GMT</lastBuildDate><item><title><![CDATA[End to End test automation for web apps]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com//2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com//2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
+&lt;h2&gt;What makes a test framework good?&lt;/h2&gt;
+&lt;p&gt;In a few words, it must be simple for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting up tests&lt;/li&gt;
+&lt;li&gt;Writing tests&lt;/li&gt;
+&lt;li&gt;Running tests&lt;/li&gt;
+&lt;li&gt;Debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Strategies for testing&lt;/h2&gt;
+&lt;p&gt;There are many strategies for test automation out there, the main ones usually being:&lt;/p&gt;
+&lt;h4&gt;1. Stub Requests&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast / Easy / Flexible&lt;/li&gt;
+&lt;li&gt;No Server / DB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not True E2E&lt;/li&gt;
+&lt;li&gt;Require Fixtures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2. Static User&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Real Session E2E&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Requires Server&lt;/li&gt;
+&lt;li&gt;Seed the DB&lt;/li&gt;
+&lt;li&gt;Shares Test State&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;3. Dynamic User&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No State mutation&lt;/li&gt;
+&lt;li&gt;Flexible / Powerful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DB Setup / Teardown&lt;/li&gt;
+&lt;li&gt;Slow / Complex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The Cypress solution for it&lt;/h2&gt;
+&lt;p&gt;In 2019 I gave a talk for the React Berlin community in which under 25 minutes we discussed common problems, solutions and how Cypress can allow you implementing test automation for web apps in a fast, easy and maintainable way.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;
+  &lt;span
+    class=&quot;gatsby-resp-image-wrapper&quot;
+    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
+  &gt;
+    &lt;span
+      class=&quot;gatsby-resp-image-background-image&quot;
+      style=&quot;padding-bottom: 56.12802498048399%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACqElEQVQoz22Qa0hTYRjHD0GfuhEmczo3r10sG2sup+a0jJIstBDC6+xCSmZZhGVSQvQ1qCjqS0VBNyqkIAwiCtSdM91xZ8fbbBXdtKggKjXN8tdxaWT0wI//+zwP/HjfV9g0pwCnLo2SeRkUz7ZTPCt5KuOz2Sl/ds65KWwUEjldfYnPL18wGuhl8HmAp90qgZ4OhMb4XF47UnliS6E3Oo5eU8wUnkREEtCH02sw4TdOzMNN3LVt4fjqfIb3H2C4qoLKvFVkp1sRboauwTdPT2toNB5dDJ6wcWJ/p9a3LErjcVIO7ngrckQcHuMCZF0c11MrMERauFpezcjZczizM1gcE4Vw25CDPzUNny0DNVnDnomatAJfciadlmQajj/glAT38mvoCNHhiVpEV1g8R21FTJ8RQumGdPbuK2etPZGEyDBNqM+mO9GMstSOz6xh1eSWFBRLKh1LlnHnWANnGn9wP28PqvYSj2khnfr5HE3MJS0zix2bs9m2Lp38LAc5Kx3jN1xPV9JyvFYH3iU2ZH3sFNqMCbijzcimBNqNC/HGLEacFUHbkcuMV/+LAbyurwwOjDA6+h2hITQTv8WMarWjmq34ouNR9EZ8EVEo2uf7dAZUfSRKaDhKiB41zIB72kzkugtBobdpiMsnB/j0cSzYC1dX1iOX1eAqPohYUou09TCS8xDSljqk0lrEohqk7fWI+dW4csqR8ip55HAinngYFLwKDOF+/IXvIz+1bgxhY8FdinZfo2DnDQorb2h5nUKNySysnMhd2r7qJiXVt9hQdoXzF/1B4bu+b7x8NhQUjo1pQr/6ni6lj26lnx5f/5/8m+7J88SuU37Dh7eD/K8EpdWFqnrxKjJyexseuVXLf5D/SQ23W6SpqYnm5hYkyY0oirhcLn4BVQY71hZ317QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    &gt;
+      &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
+        alt=&quot;End to End automation testing with Cypress – Vitor Reis&quot;
+        title=&quot;&quot;
+        src=&quot;/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png&quot;
+        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/cf440/youtube_preview.png 148w,
+/static/eeabd525789288eb6733a12cf402649d/d2d38/youtube_preview.png 295w,
+/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png 590w,
+/static/eeabd525789288eb6733a12cf402649d/f9b6a/youtube_preview.png 885w,
+/static/eeabd525789288eb6733a12cf402649d/2d849/youtube_preview.png 1180w,
+/static/eeabd525789288eb6733a12cf402649d/7784a/youtube_preview.png 1281w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+      /&gt;
+    &lt;/span&gt;
+  &lt;/span&gt;
+  &lt;/a&gt;
+Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cypress - &lt;a href=&quot;https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App&quot;&gt;Test a React Todo App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brian Mann – &lt;a href=&quot;https://www.youtube.com/watch?v=5XQOK0v_YRE&quot;&gt;I see your point, but…  - AssertJS 2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Implementing Scrum - A case study]]></title><description><![CDATA[BackgroundOn Q3 2018 I started on the journey of building a new cross-functional team for a greenfield project. We started it with a product…]]></description><link>https://vitorreis.com//2019/implementing-scrum-a-case-study/</link><guid isPermaLink="false">https://vitorreis.com//2019/implementing-scrum-a-case-study/</guid><pubDate>Sun, 18 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Background&lt;/h2&gt;
 &lt;p&gt;On Q3 2018 I started on the journey of building a new cross-functional team for a greenfield project. We started it with a product manager and me as lead engineer, a few months down the road we had a 2nd engineer working with us in our HQ in Berlin and a 3rd engineer working remote from South America while his visa was being processed. In the beginning we didn’t feel the need of having a specific process, we used a kanban board to prioritise and track progress on development.&lt;/p&gt;
 &lt;p&gt;As the team continued to grow and our remote engineer relocated to Berlin joining us in our headquarter we started having a feeling that we could be more productive.&lt;/p&gt;
 &lt;p&gt;Reflecting on the topic with fellow colleagues and our senior management we decided to address this situation by changing our software development process, the main reasons for this change were:&lt;/p&gt;
@@ -182,11 +259,11 @@ further deviation.&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.Scrumguides.org/docs/Scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100&quot;&gt;Schwaber and Sutherland, 2017 - The Scrum Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Practical guide to CD Java Applications]]></title><description><![CDATA[At JAX London a few weeks ago I attended the talk of @danielbryantuk about Continuous Delivery With Containers, where he gave a few samples…]]></description><link>https://vitorreis.com//a-practical-guide-to-cd-java-applications/</link><guid isPermaLink="false">https://vitorreis.com//a-practical-guide-to-cd-java-applications/</guid><pubDate>Thu, 19 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;At JAX London a few weeks ago I attended the talk of &lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; about Continuous Delivery With Containers, where he gave a few samples of his book &lt;a href=&quot;https://www.nginx.com/resources/library/containerizing-continuous-delivery-java/&quot;&gt;Containerizing Continuous Delivery in Java&lt;/a&gt; (get a free copy on the link).&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Practical guide to CD Java Applications]]></title><description><![CDATA[At JAX London a few weeks ago I attended the talk of @danielbryantuk about Continuous Delivery With Containers, where he gave a few samples…]]></description><link>https://vitorreis.com//2017/a-practical-guide-to-cd-java-applications/</link><guid isPermaLink="false">https://vitorreis.com//2017/a-practical-guide-to-cd-java-applications/</guid><pubDate>Thu, 19 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;At JAX London a few weeks ago I attended the talk of &lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; about Continuous Delivery With Containers, where he gave a few samples of his book &lt;a href=&quot;https://www.nginx.com/resources/library/containerizing-continuous-delivery-java/&quot;&gt;Containerizing Continuous Delivery in Java&lt;/a&gt; (get a free copy on the link).&lt;/p&gt;
 &lt;p&gt;The book it’s easy to read, thin and straight to the point, in 53 pages the author gives a small review/context about the topic there discussed, and demonstrates conceptually and practically how to implement a flow of continuous delivery of a java application using Docker as container technology and Jenkins as tool for automation of the flow, the book is not about how to write Dockerfiles for this purpose the author recommends &lt;a href=&quot;http://www.oreilly.com/programming/free/docker-for-java-developers.csp&quot;&gt;Docker for Java Developers&lt;/a&gt; (Also available for free in the link) from Arun Gupta. The author flags the questions and important concepts that you should consider while implementing such a flow, he raises our awareness on common mistakes but this is just the tip of the iceberg, it’s a nice starting point on the topic.&lt;/p&gt;
 &lt;p&gt;In the real world, your company might be using other tools for continuous integration (e.g.: CircleCI, Travis) and you might have to adapt the proposed flow to the resources that your tool give to you, also if your cluster runs inside a VPN you may have to handle the security implications of your CI/CD tool connecting in the VPN. I felt that the author stopped in the “staging/test” environment, I missed comments about a pipeline/barrier mechanism for the production environment.&lt;/p&gt;
 &lt;p&gt;Recommended read for who is considering to adopt this flow and don’t have nothing similar implemented yet.&lt;/p&gt;
-&lt;p&gt;Kudos to the author for the useful &lt;a href=&quot;https://github.com/danielbryantuk/oreilly-docker-java-shopping&quot;&gt;open source repository&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Jax London 2017 - Conference Highlights]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogIn October 2017 some of the top tech companies got together in the JAX London a…]]></description><link>https://vitorreis.com//jax-london-2017/</link><guid isPermaLink="false">https://vitorreis.com//jax-london-2017/</guid><pubDate>Sun, 15 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Kudos to the author for the useful &lt;a href=&quot;https://github.com/danielbryantuk/oreilly-docker-java-shopping&quot;&gt;open source repository&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Jax London 2017 - Conference Highlights]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogIn October 2017 some of the top tech companies got together in the JAX London a…]]></description><link>https://vitorreis.com//2017/jax-london/</link><guid isPermaLink="false">https://vitorreis.com//2017/jax-london/</guid><pubDate>Sun, 15 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Originally published at &lt;a href=&quot;https://tech.foodora.com/jax-london-2017/&quot;&gt;foodora/foodpanda tech blog&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;In October 2017 some of the top tech companies got together in the JAX London a conference about JAVA, microservices, continuous delivery and DevOps, and foodora tech was also there to check the latest releases and trends for the future of JAVA.&lt;/p&gt;
@@ -336,7 +413,7 @@ further deviation.&lt;/p&gt;
     &lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/DonaldOJDK&quot;&gt;@DonaldOJDK&lt;/a&gt; Senior Director of Product Management for Oracle talked about the new release cycles of java and how the language will move forward faster than ever with a new release each 6 months. There will be versions that will not be maintained for longer which will force the companies that choose this path to always upgrade the java version of their projects, but if your company is more conservative you still have the option to stay in the versions that are long time supported.&lt;/p&gt;
 &lt;p&gt;It’s a common agreement that our team would enjoy it more if the speakers had dive deep into the topics, but it’s also understandable that due to the small duration of the sessions it’s challenging to do so. Now it’s time to share the knowledge internally with teams and prepare towards the future of fast pace java releases.&lt;/p&gt;
-&lt;p&gt;Happy coding.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building Scalable APIs with AWS API Gateway]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogWe strongly believe that is important to keep up to date in our tech stack and be close…]]></description><link>https://vitorreis.com//building-scalable-apis-with-aws-api-gateway/</link><guid isPermaLink="false">https://vitorreis.com//building-scalable-apis-with-aws-api-gateway/</guid><pubDate>Fri, 16 Sep 2016 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Happy coding.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building Scalable APIs with AWS API Gateway]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogWe strongly believe that is important to keep up to date in our tech stack and be close…]]></description><link>https://vitorreis.com//2016/building-scalable-apis-with-aws-api-gateway/</link><guid isPermaLink="false">https://vitorreis.com//2016/building-scalable-apis-with-aws-api-gateway/</guid><pubDate>Fri, 16 Sep 2016 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Originally published at &lt;a href=&quot;https://tech.foodora.com/building-scalable-apis-with-aws-api-gateway&quot;&gt;foodora/foodpanda tech blog&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We strongly believe that is important to keep up to date in our tech stack and be close to the tech community. Therefore foodpanda hosted the AWS User Group Berlin edition of November 2016.
