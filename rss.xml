@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com/</link><generator>RSS for Node</generator><lastBuildDate>Sun, 08 Nov 2020 18:38:13 GMT</lastBuildDate><item><title><![CDATA[End to End test automation for web apps]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com//2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com//2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog RSS Feed]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Apr 2026 10:51:43 GMT</lastBuildDate><item><title><![CDATA[End to End test automation for web apps]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
 &lt;h2&gt;What makes a test framework good?&lt;/h2&gt;
 &lt;p&gt;In a few words, it must be simple for:&lt;/p&gt;
 &lt;ul&gt;
@@ -44,38 +44,37 @@
 &lt;/ul&gt;
 &lt;h2&gt;The Cypress solution for it&lt;/h2&gt;
 &lt;p&gt;In 2019 I gave a talk for the React Berlin community in which under 25 minutes we discussed common problems, solutions and how Cypress can allow you implementing test automation for web apps in a fast, easy and maintainable way.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.12802498048399%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACqElEQVQoz22Qa0hTYRjHD0GfuhEmczo3r10sG2sup+a0jJIstBDC6+xCSmZZhGVSQvQ1qCjqS0VBNyqkIAwiCtSdM91xZ8fbbBXdtKggKjXN8tdxaWT0wI//+zwP/HjfV9g0pwCnLo2SeRkUz7ZTPCt5KuOz2Sl/ds65KWwUEjldfYnPL18wGuhl8HmAp90qgZ4OhMb4XF47UnliS6E3Oo5eU8wUnkREEtCH02sw4TdOzMNN3LVt4fjqfIb3H2C4qoLKvFVkp1sRboauwTdPT2toNB5dDJ6wcWJ/p9a3LErjcVIO7ngrckQcHuMCZF0c11MrMERauFpezcjZczizM1gcE4Vw25CDPzUNny0DNVnDnomatAJfciadlmQajj/glAT38mvoCNHhiVpEV1g8R21FTJ8RQumGdPbuK2etPZGEyDBNqM+mO9GMstSOz6xh1eSWFBRLKh1LlnHnWANnGn9wP28PqvYSj2khnfr5HE3MJS0zix2bs9m2Lp38LAc5Kx3jN1xPV9JyvFYH3iU2ZH3sFNqMCbijzcimBNqNC/HGLEacFUHbkcuMV/+LAbyurwwOjDA6+h2hITQTv8WMarWjmq34ouNR9EZ8EVEo2uf7dAZUfSRKaDhKiB41zIB72kzkugtBobdpiMsnB/j0cSzYC1dX1iOX1eAqPohYUou09TCS8xDSljqk0lrEohqk7fWI+dW4csqR8ip55HAinngYFLwKDOF+/IXvIz+1bgxhY8FdinZfo2DnDQorb2h5nUKNySysnMhd2r7qJiXVt9hQdoXzF/1B4bu+b7x8NhQUjo1pQr/6ni6lj26lnx5f/5/8m+7J88SuU37Dh7eD/K8EpdWFqnrxKjJyexseuVXLf5D/SQ23W6SpqYnm5hYkyY0oirhcLn4BVQY71hZ317QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
-      &lt;img
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACu0lEQVR42l2Ra0jTURjGR/ShD1FkXqZuzcvMSypqaurESrto2VVKzYQMrZVilEZShJ+iSCGIIBAs6Y5S5Jxzik5EKchN1/9fko0kE+z2wTmlG+Svs60iOvDjed/nwMP7nqMo9y3kTIiOGlUWp3zWcmpF0n8IzyfZq6Kv9U3m2KJomqqa+GQf5afdxvzzEeRnQwz0mlCYtTuZ0q3DsTYNR2gEDk24lxCvvglWMxGgxKHWMK7R8lr4r1VhGBJKqc/IZ7a6hm/6cirydOgSo1G0+W/B7hfIsF8oVmU41sB/UIYxkJRLz6YynsRkYAvWYtVEYQvQcnd9Ff6qeJr1J5htaeHQ9mziwsNQPFLnM561HikjBzlzE3LWZqT0jUiifpmayaPr/VyRwVhUh7xSiTUkmrGgSM4n7GPxkuUUbk2hrGwf2YmRRAb5i8DAXMai1zAak8xzN3Gp2GNTPMhR8XTUtdB0f5qebXokv2BsIlBWRtCwroi9hcWc1pdQe3A3RwsLKNmzC8VD9Q7G0nWMpuVgT0gXa0VgE+uOuAnSilrrrdWrGdHEYA+P5ekyFdb6O7jPh8kf2AZ/sPATZl1OFI/9NjCeEIecmMqL+CRkbRSSKhRpVRiSWmhwCJL4HEmpQloZKKZTMbxoKbazzZ5A+9A8t6+6cM2Aa04E3sxrZPD4BfoqLmI5IjjegEV/Ccuxy1iOCi2/gKWykb7Sevr219Ffco7OvJMMXRv0BE46vvBswMXCwu8JC0oNHKi+R3HlA8F9igTFHoRXJbTqt+/W6lYOnmwj//Bdbtx65Qn8/PEb0+++elaemZlB8XFqnvdvnbyfnBXv8S+u/xDeW+/d9ISTOed3T+CCGM2N+zidYsKeznZ6+7rp7umiy9yJqcuIyWz0qLv3Yvx796c2dnbQ3t6OwWDAZOrCbDbT2trKL2EWOwPoyFA2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;End to End automation testing with Cypress – Vitor Reis&quot;
         title=&quot;&quot;
-        src=&quot;/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png&quot;
-        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/cf440/youtube_preview.png 148w,
-/static/eeabd525789288eb6733a12cf402649d/d2d38/youtube_preview.png 295w,
-/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png 590w,
-/static/eeabd525789288eb6733a12cf402649d/f9b6a/youtube_preview.png 885w,
-/static/eeabd525789288eb6733a12cf402649d/2d849/youtube_preview.png 1180w,
-/static/eeabd525789288eb6733a12cf402649d/7784a/youtube_preview.png 1281w&quot;
+        src=&quot;/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png&quot;
+        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/12f09/youtube_preview.png 148w,
+/static/eeabd525789288eb6733a12cf402649d/e4a3f/youtube_preview.png 295w,
+/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png 590w,
+/static/eeabd525789288eb6733a12cf402649d/efc66/youtube_preview.png 885w,
+/static/eeabd525789288eb6733a12cf402649d/c83ae/youtube_preview.png 1180w,
+/static/eeabd525789288eb6733a12cf402649d/68947/youtube_preview.png 1281w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;
+    &lt;/span&gt;&lt;/a&gt;
 Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Cypress - &lt;a href=&quot;https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App&quot;&gt;Test a React Todo App&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Brian Mann – &lt;a href=&quot;https://www.youtube.com/watch?v=5XQOK0v_YRE&quot;&gt;I see your point, but…  - AssertJS 2018&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Automação de testes para aplicações web]]></title><description><![CDATA[Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais…]]></description><link>https://vitorreis.com//pt/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com//pt/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais functionalidades são adicionadas o tamanho do código fonte tende a crescer, se o seu produto está tendo sucesso o seu time pode crescer e com isso o risco de introduzir regressões é ainda maior.&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Automação de testes para aplicações web]]></title><description><![CDATA[Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais…]]></description><link>https://vitorreis.com/pt/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com/pt/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais functionalidades são adicionadas o tamanho do código fonte tende a crescer, se o seu produto está tendo sucesso o seu time pode crescer e com isso o risco de introduzir regressões é ainda maior.&lt;/p&gt;
 &lt;h2&gt;O que faz um biblioteca de testes ser boa?&lt;/h2&gt;
 &lt;p&gt;Em poucas palavras, deve ser simples de:&lt;/p&gt;
 &lt;ul&gt;
@@ -121,38 +120,37 @@ Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
 &lt;/ul&gt;
 &lt;h2&gt;A Solução da biblioteca Cypress&lt;/h2&gt;
 &lt;p&gt;Em 2019 eu dei uma palestra para a comunidade de React de Berlim em que em menos de 25 minutos eu discuti problemas comuns, soluções e como Cypress permite você implementar automação “e2e” para aplicações web de um jeito simples, rápido e facíl de dar manutenção.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
-    &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.12802498048399%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACqElEQVQoz22Qa0hTYRjHD0GfuhEmczo3r10sG2sup+a0jJIstBDC6+xCSmZZhGVSQvQ1qCjqS0VBNyqkIAwiCtSdM91xZ8fbbBXdtKggKjXN8tdxaWT0wI//+zwP/HjfV9g0pwCnLo2SeRkUz7ZTPCt5KuOz2Sl/ds65KWwUEjldfYnPL18wGuhl8HmAp90qgZ4OhMb4XF47UnliS6E3Oo5eU8wUnkREEtCH02sw4TdOzMNN3LVt4fjqfIb3H2C4qoLKvFVkp1sRboauwTdPT2toNB5dDJ6wcWJ/p9a3LErjcVIO7ngrckQcHuMCZF0c11MrMERauFpezcjZczizM1gcE4Vw25CDPzUNny0DNVnDnomatAJfciadlmQajj/glAT38mvoCNHhiVpEV1g8R21FTJ8RQumGdPbuK2etPZGEyDBNqM+mO9GMstSOz6xh1eSWFBRLKh1LlnHnWANnGn9wP28PqvYSj2khnfr5HE3MJS0zix2bs9m2Lp38LAc5Kx3jN1xPV9JyvFYH3iU2ZH3sFNqMCbijzcimBNqNC/HGLEacFUHbkcuMV/+LAbyurwwOjDA6+h2hITQTv8WMarWjmq34ouNR9EZ8EVEo2uf7dAZUfSRKaDhKiB41zIB72kzkugtBobdpiMsnB/j0cSzYC1dX1iOX1eAqPohYUou09TCS8xDSljqk0lrEohqk7fWI+dW4csqR8ip55HAinngYFLwKDOF+/IXvIz+1bgxhY8FdinZfo2DnDQorb2h5nUKNySysnMhd2r7qJiXVt9hQdoXzF/1B4bu+b7x8NhQUjo1pQr/6ni6lj26lnx5f/5/8m+7J88SuU37Dh7eD/K8EpdWFqnrxKjJyexseuVXLf5D/SQ23W6SpqYnm5hYkyY0oirhcLn4BVQY71hZ317QAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
     &gt;
-      &lt;img
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACu0lEQVR42l2Ra0jTURjGR/ShD1FkXqZuzcvMSypqaurESrto2VVKzYQMrZVilEZShJ+iSCGIIBAs6Y5S5Jxzik5EKchN1/9fko0kE+z2wTmlG+Svs60iOvDjed/nwMP7nqMo9y3kTIiOGlUWp3zWcmpF0n8IzyfZq6Kv9U3m2KJomqqa+GQf5afdxvzzEeRnQwz0mlCYtTuZ0q3DsTYNR2gEDk24lxCvvglWMxGgxKHWMK7R8lr4r1VhGBJKqc/IZ7a6hm/6cirydOgSo1G0+W/B7hfIsF8oVmU41sB/UIYxkJRLz6YynsRkYAvWYtVEYQvQcnd9Ff6qeJr1J5htaeHQ9mziwsNQPFLnM561HikjBzlzE3LWZqT0jUiifpmayaPr/VyRwVhUh7xSiTUkmrGgSM4n7GPxkuUUbk2hrGwf2YmRRAb5i8DAXMai1zAak8xzN3Gp2GNTPMhR8XTUtdB0f5qebXokv2BsIlBWRtCwroi9hcWc1pdQe3A3RwsLKNmzC8VD9Q7G0nWMpuVgT0gXa0VgE+uOuAnSilrrrdWrGdHEYA+P5ekyFdb6O7jPh8kf2AZ/sPATZl1OFI/9NjCeEIecmMqL+CRkbRSSKhRpVRiSWmhwCJL4HEmpQloZKKZTMbxoKbazzZ5A+9A8t6+6cM2Aa04E3sxrZPD4BfoqLmI5IjjegEV/Ccuxy1iOCi2/gKWykb7Sevr219Ffco7OvJMMXRv0BE46vvBswMXCwu8JC0oNHKi+R3HlA8F9igTFHoRXJbTqt+/W6lYOnmwj//Bdbtx65Qn8/PEb0+++elaemZlB8XFqnvdvnbyfnBXv8S+u/xDeW+/d9ISTOed3T+CCGM2N+zidYsKeznZ6+7rp7umiy9yJqcuIyWz0qLv3Yvx796c2dnbQ3t6OwWDAZOrCbDbT2trKL2EWOwPoyFA2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;End to End automation testing with Cypress – Vitor Reis&quot;
         title=&quot;&quot;
-        src=&quot;/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png&quot;
-        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/cf440/youtube_preview.png 148w,
-/static/eeabd525789288eb6733a12cf402649d/d2d38/youtube_preview.png 295w,
-/static/eeabd525789288eb6733a12cf402649d/b9e4f/youtube_preview.png 590w,
-/static/eeabd525789288eb6733a12cf402649d/f9b6a/youtube_preview.png 885w,
-/static/eeabd525789288eb6733a12cf402649d/2d849/youtube_preview.png 1180w,
-/static/eeabd525789288eb6733a12cf402649d/7784a/youtube_preview.png 1281w&quot;
+        src=&quot;/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png&quot;
+        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/12f09/youtube_preview.png 148w,
+/static/eeabd525789288eb6733a12cf402649d/e4a3f/youtube_preview.png 295w,
+/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png 590w,
+/static/eeabd525789288eb6733a12cf402649d/efc66/youtube_preview.png 885w,
+/static/eeabd525789288eb6733a12cf402649d/c83ae/youtube_preview.png 1180w,
+/static/eeabd525789288eb6733a12cf402649d/68947/youtube_preview.png 1281w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  &lt;/a&gt;
+    &lt;/span&gt;&lt;/a&gt;
 Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
 &lt;h2&gt;Referências&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Cypress - &lt;a href=&quot;https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App&quot;&gt;Test a React Todo App&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Brian Mann – &lt;a href=&quot;https://www.youtube.com/watch?v=5XQOK0v_YRE&quot;&gt;I see your point, but…  - AssertJS 2018&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Implementing Scrum - A case study]]></title><description><![CDATA[BackgroundOn Q3 2018 I started on the journey of building a new cross-functional team for a greenfield project. We started it with a product…]]></description><link>https://vitorreis.com//2019/implementing-scrum-a-case-study/</link><guid isPermaLink="false">https://vitorreis.com//2019/implementing-scrum-a-case-study/</guid><pubDate>Sun, 18 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Background&lt;/h2&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Implementing Scrum - A case study]]></title><description><![CDATA[Background On Q3 2018 I started on the journey of building a new cross-functional team for a greenfield project. We started it with a…]]></description><link>https://vitorreis.com/2019/implementing-scrum-a-case-study/</link><guid isPermaLink="false">https://vitorreis.com/2019/implementing-scrum-a-case-study/</guid><pubDate>Sun, 18 Aug 2019 22:12:03 GMT</pubDate><content:encoded>&lt;h2&gt;Background&lt;/h2&gt;
 &lt;p&gt;On Q3 2018 I started on the journey of building a new cross-functional team for a greenfield project. We started it with a product manager and me as lead engineer, a few months down the road we had a 2nd engineer working with us in our HQ in Berlin and a 3rd engineer working remote from South America while his visa was being processed. In the beginning we didn’t feel the need of having a specific process, we used a kanban board to prioritise and track progress on development.&lt;/p&gt;
 &lt;p&gt;As the team continued to grow and our remote engineer relocated to Berlin joining us in our headquarter we started having a feeling that we could be more productive.&lt;/p&gt;
 &lt;p&gt;Reflecting on the topic with fellow colleagues and our senior management we decided to address this situation by changing our software development process, the main reasons for this change were:&lt;/p&gt;
@@ -200,41 +198,38 @@ further deviation.&lt;/p&gt;
 &lt;p&gt;We were working on a greenfield project that meant that we knew exactly what we should be working on in the next couple of weeks, we scheduled a kick-off meeting in which we reviewed Scrum, roles, values and artifacts. That was a very important moment for the team in the direction of transparency, previously I (tech lead) and the product manager were sharing the role of product owner, we made a clean cut that day and the product manager took the role as product owner, I took the role of Scrum master and we also reviewed the role of the development team. Clear roles, expectations and accountability were keys for moving forward.&lt;/p&gt;
 &lt;p&gt;The team agreed to do Scrum “by the book” and we defined that a 2 weeks sprint would be ideal to get started.&lt;/p&gt;
 &lt;p&gt;We did our first sprint planning and used the criteria “what do we forecast we can achieve in the next 2 weeks?” as the starting point to come up with our first sprint, since we didn’t have any metric to tell us the current speed of the team.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/047bf8b1f5affef2977ded9f71d36f7e/9c15e/Sprint1_BurndownChart.png&quot;
+    href=&quot;/static/047bf8b1f5affef2977ded9f71d36f7e/350de/Sprint1_BurndownChart.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 60.32064128256513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAABYlAAAWJQFJUiTwAAABXklEQVQoz3VSa2/CMAzs//+JfJlUBrRp3m+TlO5aS2wgZkFwrDuffWEwxkzTpJTSWrfWai2TUMoV6fKss3QV+ePx2D7FIIS4HQE+zmVZgBYmF+rLIsbxLKUyRs/zDBkAoOScw1VKOUhAhODLwiHVjK/SXFdSiiO4OxIg0WInE1Ff13trSFrvmPyOIML8tVZkuB0Jl4lPrgzROfL+7ky1xs8TPtUoXpLP3nvOuZR987flB+9sULKkiE7YzTlLzrbgyRpAV+inZL33IaAZGr2QMRx+1nVNKYl9Xx21SpdzGr/y7ZK/x3i7OK28kqACtv0RH8CBAI8HG0MIGAEd7623GNeSKUZ9vVohqlxgyYsy9nnuxuS9/bbBlVIJYqijmEqBLxTDCxmgj2Q2DLaiglfBO0G2E70rY07gcMKXGGM/duMAAq9i7W7Z7vlh0C8Z/0oQWOe/YChmPJ1OKefnK/4ABmC0fgRf7OMAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAABYlAAAWJQFJUiTwAAABcklEQVR42m1SCW7DIBD0/78YqVIUxxBj7ttg08FIUdN2ZKHdZfaYxZMQglLKOZdS5rzHGCgTm45cB8IdU3HT4TjO1tr5BxNjjFxAPiUELjdxVTGkytg6zzPiowFO0GAopUa/aV1XWGRZXrTj1cEIRZjBIle5Ed+27fl89mvGlmXBOeWc63Hspez7Xmst/YOd99xRLsDAbbk44xzkySoV+JaVTErpFzUvmqTogobI1sD23ocI5R3tByZnbbA2eo9dKSEM1qbkrlVi64lFlT07q42x1oKNblfBd7L38DA5yjO2YeuWc7/M4XH3j7u7fzlKtJRGiKPW41dySmn4GA+vpbWG2hhCOY4aA76oNZ8fkpK40lrKx9hoOJIxEjIxXnfPE0uKMaEZihrnfErQko35SAbpnYwHNMa8t3JeJVAO74Z3wpbRGYV/aHYOewevdzDo4VAF+eNEHLrGRJgRtx+aoRPRf/++gTcVU9xutxDCILfWvgGRgLO4d0sOUAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Sprint 1 Burndown Chart&quot;
         title=&quot;&quot;
-        src=&quot;/static/047bf8b1f5affef2977ded9f71d36f7e/b9e4f/Sprint1_BurndownChart.png&quot;
-        srcset=&quot;/static/047bf8b1f5affef2977ded9f71d36f7e/cf440/Sprint1_BurndownChart.png 148w,
-/static/047bf8b1f5affef2977ded9f71d36f7e/d2d38/Sprint1_BurndownChart.png 295w,
-/static/047bf8b1f5affef2977ded9f71d36f7e/b9e4f/Sprint1_BurndownChart.png 590w,
-/static/047bf8b1f5affef2977ded9f71d36f7e/f9b6a/Sprint1_BurndownChart.png 885w,
-/static/047bf8b1f5affef2977ded9f71d36f7e/9c15e/Sprint1_BurndownChart.png 998w&quot;
+        src=&quot;/static/047bf8b1f5affef2977ded9f71d36f7e/fcda8/Sprint1_BurndownChart.png&quot;
+        srcset=&quot;/static/047bf8b1f5affef2977ded9f71d36f7e/12f09/Sprint1_BurndownChart.png 148w,
+/static/047bf8b1f5affef2977ded9f71d36f7e/e4a3f/Sprint1_BurndownChart.png 295w,
+/static/047bf8b1f5affef2977ded9f71d36f7e/fcda8/Sprint1_BurndownChart.png 590w,
+/static/047bf8b1f5affef2977ded9f71d36f7e/efc66/Sprint1_BurndownChart.png 885w,
+/static/047bf8b1f5affef2977ded9f71d36f7e/350de/Sprint1_BurndownChart.png 998w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In our first sprint retrospective many things became clear, a few days after we had started our sprint we could see an increase of story points, this pattern happened more times the subsequent days, which was an increase of scope caused by weak specs that ended up blocking development. The team added other stories that were better written in the sprint, also a long time to review work made the team delay finishing tasks.&lt;/p&gt;
 &lt;p&gt;Here are a few of the items on our “What should we have done better?” question on the Sprint Retrospective:&lt;/p&gt;
 &lt;ul&gt;
@@ -248,83 +243,77 @@ further deviation.&lt;/p&gt;
 &lt;p&gt;It was very interesting to see the team raising these questions by itself; I always wanted to point out many of these items, one retrospective was enough for the team to bring these items up and discuss solutions. By having multiple people bringing these topics into consideration it was much easier to implement solutions because the team felt (and was) empowered.&lt;/p&gt;
 &lt;h2&gt;Status Quo after 5 iterations&lt;/h2&gt;
 &lt;p&gt;After 5 cycles of learnings and adaptation many changes were made, e.g.: the team decided that the ideal story size had to be smaller, on average 1 day per story. This is reflected in the burndown chart by the many yet small points that are often being completed. The team found that this strategy decreased the risk of not being able to complete a big/complex story and had to push it into a subsequent sprint which meant great deal for the predictability of the team.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9aa95831f1751f0dc2ec648e1ab03919/df1a7/Sprint5_BurndownChart.png&quot;
+    href=&quot;/static/9aa95831f1751f0dc2ec648e1ab03919/0d1a4/Sprint5_BurndownChart.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 64.67181467181467%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAABcklEQVQoz2VS2XKEIBD0/z8xm6rUJlFUruEQFdCkhaxrki4ehqF7Thprbdd1UkqlFBHt+05aM07aLYPyI83CLJxm+L/+oYGm73vG2DiOnHNYmiw3y6BDWBIXvAIcIYRGXMaQCZ62bX/EUOIN9kEUQmojlHHOHxEFl1JUgnNumqZlWeaCBhfEc/ZAeQtE2lpTjjUFB8E5GJD9Kntd17MfGDnnbduq59pnLoAnpfQUY0i6/ZwFPxjbhisygLFfgGstYSs4gzbee3Rge2Y/3+McUDoOGNfykLO0ZSH7JYarVhInrz7u7e2le72p+9tCKhpCG7Ui5z0ORFsp/pn5bANRDRGGtx6zDJOh0HfZ2dU5PfZ6HKL3+SrGtJ/iR3m5JIwpTd5PWq3OEh9J8GhNGNj+aKrB9E8xNHVgZ89IkXL2UxDYtZRrShGvD35T110ngSi+AAaux9pKkTHGOu0QAhaez8xQgl23el34H5yTH4YBX61yvgF2KO81FP0brQAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 64.86486486486486%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZ0lEQVR42nVSi1LEIAzs/3+i54xznn3yptAXHOdClJ46Zloa0iy7SWi01m3bimJKqRijlKJjRtptEG6UC9N41pQef63hnPfFxnGcpqnvO6ktsgFbtgORiTG8SGCMgQAOViQPw9DAwwc5OEVKybJxIY1QZp5nisNylHNEFpy5bbQ2zjlgELXGWGu991qr4uetKYbSkAYHgB+ysU9UUEr3+z2GgDWls8ZULISAduSEGE8wmiQ/bqvg2OAHSEAIJ30b4sdxUDwVgnpylg1y03e2ve3LYop4ZDzLAy3iKO03mHjg7c6J92t7eeleL+r6tmt5GJ3KLyjOUO8zuIg6mWsZcIhhL/30Si1DF2e7WSuHXk/j4eb4H5jkVdko1WM2SgEMpOEcWpaxP8HrugJTmakxtWbkHTHOznPBuRB7CLtRKX7lNzRu6gROgWbSQlOhCiEBJ9INwVqVZjCy6zyfZ/tstfO4nrhUBP4ETQvuudjFZVIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Sprint 5 Burndown Chart&quot;
         title=&quot;&quot;
-        src=&quot;/static/9aa95831f1751f0dc2ec648e1ab03919/b9e4f/Sprint5_BurndownChart.png&quot;
-        srcset=&quot;/static/9aa95831f1751f0dc2ec648e1ab03919/cf440/Sprint5_BurndownChart.png 148w,
-/static/9aa95831f1751f0dc2ec648e1ab03919/d2d38/Sprint5_BurndownChart.png 295w,
-/static/9aa95831f1751f0dc2ec648e1ab03919/b9e4f/Sprint5_BurndownChart.png 590w,
-/static/9aa95831f1751f0dc2ec648e1ab03919/f9b6a/Sprint5_BurndownChart.png 885w,
-/static/9aa95831f1751f0dc2ec648e1ab03919/df1a7/Sprint5_BurndownChart.png 1036w&quot;
+        src=&quot;/static/9aa95831f1751f0dc2ec648e1ab03919/fcda8/Sprint5_BurndownChart.png&quot;
+        srcset=&quot;/static/9aa95831f1751f0dc2ec648e1ab03919/12f09/Sprint5_BurndownChart.png 148w,
+/static/9aa95831f1751f0dc2ec648e1ab03919/e4a3f/Sprint5_BurndownChart.png 295w,
+/static/9aa95831f1751f0dc2ec648e1ab03919/fcda8/Sprint5_BurndownChart.png 590w,
+/static/9aa95831f1751f0dc2ec648e1ab03919/efc66/Sprint5_BurndownChart.png 885w,
+/static/9aa95831f1751f0dc2ec648e1ab03919/0d1a4/Sprint5_BurndownChart.png 1036w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Wrapping up&lt;/h2&gt;
 &lt;p&gt;Our experience with Scrum was very positive, the team was empowered by being able to drive change in the way things were done by discussing on retrospectives and being directly involved on the planning. The product manager and tech lead understand better the speed of the team and can use it when developing a product roadmap and managing expectations of stakeholders. The management of the company can track the progress of the team in a very transparent way.&lt;/p&gt;
 &lt;p&gt;The process helped us moving from a more centralized decision making (PM and Tech lead) towards a more empowered team that is involved in all stages of product development. As the lead of the team I noticed a notorious increase in engagement on the engineers which is reflected in an increased performance of the team.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/7044e5c271d6fdaf787241ff013c5100/c3748/VelocityChart.png&quot;
+    href=&quot;/static/7044e5c271d6fdaf787241ff013c5100/eb1d2/VelocityChart.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 49.32182490752158%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2klEQVQoz2VQz2sTQRTOWS8eBFG8CorgHyEIehN/gDchJ2ltEUEjUqx3L0Gw/qiS4kFoiE3BEmJsCm6rSY3BaLVtRCpYxQ3JbnY3m2x2Z977OruGiPjxmHkz7/ve+2ZijXy+pS23NM14rZnlVfNtyS6VfF2HAjOGiHLZbvc36s1K1d3+qY6xltF0HKttmbZjWbbpurZiEUkSPskwWAYgMQgm1cbze1KKUIz/ICT5Xl/0PRF0g35PCsFMHCEUh/qBkVh0Ey4Di8My/rUcjY12T/yaBfl/JzMFzDLMpOuvJ0h0FI99izydo7b970k4rxY+Y2XdQPW4DKxQbHlc36Je5Ro6hdwGcnemKX+MuBP617OoX992sbBodvNn4Gan32D2qYbVE1K6ofiTgYnRnDG5F1RQtQen4pw5RBCNBvSpC9gcr9lIxJ8bE3vAxVQZj09f4rnDhCAUr5mYHH3RUmIuzpTx5PwYskfU/956ZH08dwBfr6x1cHtkPiIsRoTLPH+UEL25ZqjGc83EbvDLhyuYOhlHer8POX7X/nB2HzbHag4SF9PNxC5wQRHuK2vpgwOxelJmpmplRkBflr+hmExx5YaATC91t+5dxe9nP3rIpN4NCUvJFL2/+cf2Dkp6AnKxTI8HAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2klEQVR42k1Oz08TQRjdK0cPxuj/YhQDwfRialBPwpHEg3cSLqZBCaVAUwMevKrRVJIWYlp+iQtpbBEu2G01aQUSgS67S7vddne7+81zpksqL18mM/N+fE8yFaWWyerbO5os67JsfM8buZyZz3uGAQ7G0EP37tdUWymphR+2ei41LVMztIZZNy70RuOiXjfarSZXkd8hzyVfDKMOyENwMmKM2W6LyJcYEc8Uw0hki3jqeOTatufYnmu5ju37Hut6OHgqhEUUkcSTMwF1pd5ViGziuX7AMefcO0nyf+m/hbcSNFj7yC2Ns66QHI1cPRDYygScg3cF/CwXsTfMBRLXqE1UK5azO4bOwfscctMvaGcoiHQr8zieVTRsrP5x14bg7b9awdbHT9gPB2Z/rYqpp29a8RtA+eVnLIUGsHWHdzirNNVEP07nsseIPJptxa8Dv2dSSIVD7Fv/pXnzCNGRRStxk3OxZaSfhLF9TwPGJ8uHo33QFjb/Ymb0tZW4JcxppB8/YPJgYKZMFZHhOSt6jXORJJL3B/D1do3h2UTpcKQPtUSGb34Y7QmWQoPYuHu5uagivbjazj4HTr/soTAfw6+pBuFD6uTs7RjM9aKO5YVMT7Abj7HyNAH/APBOAehlGJVzAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Velocity Chart&quot;
         title=&quot;&quot;
-        src=&quot;/static/7044e5c271d6fdaf787241ff013c5100/b9e4f/VelocityChart.png&quot;
-        srcset=&quot;/static/7044e5c271d6fdaf787241ff013c5100/cf440/VelocityChart.png 148w,
-/static/7044e5c271d6fdaf787241ff013c5100/d2d38/VelocityChart.png 295w,
-/static/7044e5c271d6fdaf787241ff013c5100/b9e4f/VelocityChart.png 590w,
-/static/7044e5c271d6fdaf787241ff013c5100/f9b6a/VelocityChart.png 885w,
-/static/7044e5c271d6fdaf787241ff013c5100/2d849/VelocityChart.png 1180w,
-/static/7044e5c271d6fdaf787241ff013c5100/c3748/VelocityChart.png 1622w&quot;
+        src=&quot;/static/7044e5c271d6fdaf787241ff013c5100/fcda8/VelocityChart.png&quot;
+        srcset=&quot;/static/7044e5c271d6fdaf787241ff013c5100/12f09/VelocityChart.png 148w,
+/static/7044e5c271d6fdaf787241ff013c5100/e4a3f/VelocityChart.png 295w,
+/static/7044e5c271d6fdaf787241ff013c5100/fcda8/VelocityChart.png 590w,
+/static/7044e5c271d6fdaf787241ff013c5100/efc66/VelocityChart.png 885w,
+/static/7044e5c271d6fdaf787241ff013c5100/c83ae/VelocityChart.png 1180w,
+/static/7044e5c271d6fdaf787241ff013c5100/eb1d2/VelocityChart.png 1622w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;In the image above we see in blue the forecasted capacity for a given sprint, in red the amount of story points that were actually delivered. However since we might have a different amount of people/days on holidays in each sprint I added the 3rd bar on the chart that represents (estimated performance based on average) the speed as if nobody was having holidays on that cycle which represents the real velocity/capability of the team. We can see a consistent trend of improvements over the sprints.&lt;/p&gt;
 &lt;p&gt;Nothing is perfect: There can be less productive sprints or if something happens, we might need to change scope. However, the team can handle these situations more gracefully now and with increased transparency.&lt;/p&gt;
-&lt;p&gt;After only a few cycles the team already felt many benefits by the change in the process: &lt;/p&gt;
+&lt;p&gt;After only a few cycles the team already felt many benefits by the change in the process:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Clear roles and responsibilities&lt;/li&gt;
 &lt;li&gt;Empowerment&lt;/li&gt;
@@ -336,200 +325,185 @@ further deviation.&lt;/p&gt;
 &lt;h2&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;https://www.Scrumguides.org/docs/Scrumguide/v2017/2017-Scrum-Guide-US.pdf#zoom=100&quot;&gt;Schwaber and Sutherland, 2017 - The Scrum Guide&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Practical guide to CD Java Applications]]></title><description><![CDATA[At JAX London a few weeks ago I attended the talk of @danielbryantuk about Continuous Delivery With Containers, where he gave a few samples…]]></description><link>https://vitorreis.com//2017/a-practical-guide-to-cd-java-applications/</link><guid isPermaLink="false">https://vitorreis.com//2017/a-practical-guide-to-cd-java-applications/</guid><pubDate>Thu, 19 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;At JAX London a few weeks ago I attended the talk of &lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; about Continuous Delivery With Containers, where he gave a few samples of his book &lt;a href=&quot;https://www.nginx.com/resources/library/containerizing-continuous-delivery-java/&quot;&gt;Containerizing Continuous Delivery in Java&lt;/a&gt; (get a free copy on the link).&lt;/p&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[A Practical guide to CD Java Applications]]></title><description><![CDATA[At JAX London a few weeks ago I attended the talk of @danielbryantuk about Continuous Delivery With Containers, where he gave a few samples…]]></description><link>https://vitorreis.com/2017/a-practical-guide-to-cd-java-applications/</link><guid isPermaLink="false">https://vitorreis.com/2017/a-practical-guide-to-cd-java-applications/</guid><pubDate>Thu, 19 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;At JAX London a few weeks ago I attended the talk of &lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; about Continuous Delivery With Containers, where he gave a few samples of his book &lt;a href=&quot;https://www.nginx.com/resources/library/containerizing-continuous-delivery-java/&quot;&gt;Containerizing Continuous Delivery in Java&lt;/a&gt; (get a free copy on the link).&lt;/p&gt;
 &lt;p&gt;The book it’s easy to read, thin and straight to the point, in 53 pages the author gives a small review/context about the topic there discussed, and demonstrates conceptually and practically how to implement a flow of continuous delivery of a java application using Docker as container technology and Jenkins as tool for automation of the flow, the book is not about how to write Dockerfiles for this purpose the author recommends &lt;a href=&quot;http://www.oreilly.com/programming/free/docker-for-java-developers.csp&quot;&gt;Docker for Java Developers&lt;/a&gt; (Also available for free in the link) from Arun Gupta. The author flags the questions and important concepts that you should consider while implementing such a flow, he raises our awareness on common mistakes but this is just the tip of the iceberg, it’s a nice starting point on the topic.&lt;/p&gt;
 &lt;p&gt;In the real world, your company might be using other tools for continuous integration (e.g.: CircleCI, Travis) and you might have to adapt the proposed flow to the resources that your tool give to you, also if your cluster runs inside a VPN you may have to handle the security implications of your CI/CD tool connecting in the VPN. I felt that the author stopped in the “staging/test” environment, I missed comments about a pipeline/barrier mechanism for the production environment.&lt;/p&gt;
 &lt;p&gt;Recommended read for who is considering to adopt this flow and don’t have nothing similar implemented yet.&lt;/p&gt;
-&lt;p&gt;Kudos to the author for the useful &lt;a href=&quot;https://github.com/danielbryantuk/oreilly-docker-java-shopping&quot;&gt;open source repository&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Jax London 2017 - Conference Highlights]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogIn October 2017 some of the top tech companies got together in the JAX London a…]]></description><link>https://vitorreis.com//2017/jax-london/</link><guid isPermaLink="false">https://vitorreis.com//2017/jax-london/</guid><pubDate>Sun, 15 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Kudos to the author for the useful &lt;a href=&quot;https://github.com/danielbryantuk/oreilly-docker-java-shopping&quot;&gt;open source repository&lt;/a&gt;.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Jax London 2017 - Conference Highlights]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blog In October 2017 some of the top tech companies got together in the JAX London a…]]></description><link>https://vitorreis.com/2017/jax-london/</link><guid isPermaLink="false">https://vitorreis.com/2017/jax-london/</guid><pubDate>Sun, 15 Oct 2017 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Originally published at &lt;a href=&quot;https://tech.foodora.com/jax-london-2017/&quot;&gt;foodora/foodpanda tech blog&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;In October 2017 some of the top tech companies got together in the JAX London a conference about JAVA, microservices, continuous delivery and DevOps, and foodora tech was also there to check the latest releases and trends for the future of JAVA.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/9006fc47076445fc7e57451f6ff2f570/1f853/tech-team-at-jax.jpg&quot;
+    href=&quot;/static/9006fc47076445fc7e57451f6ff2f570/72e01/tech-team-at-jax.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAU9XLyqVAv/EABoQAQEBAAMBAAAAAAAAAAAAAAECAwAEEjP/2gAIAQEAAQUC0lmcRkPLwVwlTr4fP//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFJr//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAgEBPwHFf//EABwQAAAGAwAAAAAAAAAAAAAAAAABAhARgTJRYf/aAAgBAQAGPwLGwZqplT0SW2//xAAbEAEAAgIDAAAAAAAAAAAAAAABACERMUFRsf/aAAgBAQABPyF3bukQgR2HNzH3zHVZqBSImxPSf//aAAwDAQACAAMAAAAQv+//xAAYEQEBAAMAAAAAAAAAAAAAAAABABEhcf/aAAgBAwEBPxBd8lA5v//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxAK4cv/xAAbEAEAAgMBAQAAAAAAAAAAAAABABEhMUFxUf/aAAgBAQABPxAeQugqVoc8I0XkuBTh8uFLuIVNxWbbF8Zg5sSncxHuf//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAU9XLyqVAv/EABoQAQEBAAMBAAAAAAAAAAAAAAECAwAEEjP/2gAIAQEAAQUC0lmcRkny8FcBTr4fP//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFJr//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAgEBPwHFf//EAB0QAAEDBQEAAAAAAAAAAAAAAAEAEBECMlFhcYH/2gAIAQEABj8Ct9RJPGqnakZb/8QAGhABAQADAQEAAAAAAAAAAAAAAQARITFBsf/aAAgBAQABPyF3sewCSPQ53YPZXWdQ0qJ0X0v/2gAMAwEAAgADAAAAEL/P/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBeygdv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EArhy//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQVFx/9oACAEBAAE/EB5sUEVWjfCN2xLgU54QNTMUVNx0bbF+Mx+WJncxNep//9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Tech team at JAX Conf&quot;
         title=&quot;&quot;
-        src=&quot;/static/9006fc47076445fc7e57451f6ff2f570/c739e/tech-team-at-jax.jpg&quot;
-        srcset=&quot;/static/9006fc47076445fc7e57451f6ff2f570/8ee9c/tech-team-at-jax.jpg 148w,
-/static/9006fc47076445fc7e57451f6ff2f570/ebbe7/tech-team-at-jax.jpg 295w,
-/static/9006fc47076445fc7e57451f6ff2f570/c739e/tech-team-at-jax.jpg 590w,
-/static/9006fc47076445fc7e57451f6ff2f570/5413e/tech-team-at-jax.jpg 885w,
-/static/9006fc47076445fc7e57451f6ff2f570/1f853/tech-team-at-jax.jpg 1024w&quot;
+        src=&quot;/static/9006fc47076445fc7e57451f6ff2f570/1c72d/tech-team-at-jax.jpg&quot;
+        srcset=&quot;/static/9006fc47076445fc7e57451f6ff2f570/a80bd/tech-team-at-jax.jpg 148w,
+/static/9006fc47076445fc7e57451f6ff2f570/1c91a/tech-team-at-jax.jpg 295w,
+/static/9006fc47076445fc7e57451f6ff2f570/1c72d/tech-team-at-jax.jpg 590w,
+/static/9006fc47076445fc7e57451f6ff2f570/a8a14/tech-team-at-jax.jpg 885w,
+/static/9006fc47076445fc7e57451f6ff2f570/72e01/tech-team-at-jax.jpg 1024w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;After 2 days, 13 presentations and lot’s of coffee we returned home with a few new concepts, t-shirts, stickers and the awareness that foodora is in the selected group of companies which attended the event that is using almost all the cutting-edge technologies that were discussed at the event.&lt;/p&gt;
 &lt;h2&gt;Highlights&lt;/h2&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/1f853/gke-talk.jpg&quot;
+    href=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/72e01/gke-talk.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 52.05078125%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABqZp5hiZQ/8QAGhAAAgIDAAAAAAAAAAAAAAAAAQIAAxESMv/aAAgBAQABBQLCFQ9Us0Y1cQT/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BapD/xAAXEQADAQAAAAAAAAAAAAAAAAAAARES/9oACAECAQE/AU4aP//EABsQAAIBBQAAAAAAAAAAAAAAAAABECEiMUGB/9oACAEBAAY/ArdGUUZ2f//EABwQAAICAgMAAAAAAAAAAAAAAAABETEhQVFxkf/aAAgBAQABPyGeeMonkTwvMgWii/sbKH//2gAMAwEAAgADAAAAEBsf/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oACAEDAQE/EB1BC//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxB9BKv/xAAcEAEAAgEFAAAAAAAAAAAAAAABADERECFhodH/2gAIAQEAAT8QCgpcnaB4Fq3kalhjscsTboaZ/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABqZp5hiZBf//EABsQAAICAwEAAAAAAAAAAAAAAAIDAAEREjJB/9oACAEBAAEFAsAQ0xUZqVq49qf/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BapD/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BThT/xAAbEAACAQUAAAAAAAAAAAAAAAAAARAhIjFBgf/aAAgBAQAGPwK3RlFGdn//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhEDFRcZH/2gAIAQEAAT8heEUyfMBoecSkBqb+2Gk//9oADAMBAAIAAwAAABDTz//EABYRAQEBAAAAAAAAAAAAAAAAAAEAMf/aAAgBAwEBPxAdQQv/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QfQS7/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARMRBhodH/2gAIAQEAAT8QEAs2eoBROa+RnUK2HbE68DGf/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;gke talk&quot;
         title=&quot;&quot;
-        src=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/c739e/gke-talk.jpg&quot;
-        srcset=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/8ee9c/gke-talk.jpg 148w,
-/static/ac1a23dfe6fc57db07b1854585ad664e/ebbe7/gke-talk.jpg 295w,
-/static/ac1a23dfe6fc57db07b1854585ad664e/c739e/gke-talk.jpg 590w,
-/static/ac1a23dfe6fc57db07b1854585ad664e/5413e/gke-talk.jpg 885w,
-/static/ac1a23dfe6fc57db07b1854585ad664e/1f853/gke-talk.jpg 1024w&quot;
+        src=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/1c72d/gke-talk.jpg&quot;
+        srcset=&quot;/static/ac1a23dfe6fc57db07b1854585ad664e/a80bd/gke-talk.jpg 148w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/1c91a/gke-talk.jpg 295w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/1c72d/gke-talk.jpg 590w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/a8a14/gke-talk.jpg 885w,
+/static/ac1a23dfe6fc57db07b1854585ad664e/72e01/gke-talk.jpg 1024w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/meteatamel&quot;&gt;@meteatamel&lt;/a&gt; Google Developer Advocate guided us into a tour on the architecture of resilient microservices with Kubernetes, the managed kubernetes that &lt;a href=&quot;https://cloud.google.com/kubernetes-engine/&quot;&gt;Google Cloud Engine (GKE)&lt;/a&gt; offers is extremely easy to setup and might be a good option for small teams that doesn’t have System Engineers to manage a cluster. At foodora nothing new there since we are already using this architecture since January 2017,  but the presentation was a nice review and reaffirms that we are going in the right direction.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/1f853/cd-in-java.jpg&quot;
+    href=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/72e01/cd-in-java.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.56640625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFKjE1h8lA//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERID/9oACAEBAAEFAlq35gJlJZgZsT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAIQEQETH/2gAIAQEABj8ChGs7Uuv/xAAaEAEBAAMBAQAAAAAAAAAAAAABACExURFB/9oACAEBAAE/IdlshiXZAzu7Ge0bxd8L/9oADAMBAAIAAwAAABDU/wD/xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/EHtKf//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPxCMf//EABsQAQADAQADAAAAAAAAAAAAAAEAETEhYXGh/9oACAEBAAE/EKx2zD1qGgDcCvnZ5z7lDeylTYGzUVtOz//Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFKlD1h8lA//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERID/9oACAEBAAEFAlq35gJlJZgZsT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAIQEQETH/2gAIAQEABj8ChGs7Uuv/xAAcEAEBAAICAwAAAAAAAAAAAAABACFRETFBYZH/2gAIAQEAAT8hxT2Ql2QPduP2d0bhd4L/2gAMAwEAAgADAAAAELQ//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxB7Sn//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EIxT/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBYaH/2gAIAQEAAT8QjdDk07ZhpB14J83ntOIO+5FzQO55K1K5/9k=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;cd in java&quot;
         title=&quot;&quot;
-        src=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/c739e/cd-in-java.jpg&quot;
-        srcset=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/8ee9c/cd-in-java.jpg 148w,
-/static/1b09e08c1d6bb358816c3f9b6051a0f0/ebbe7/cd-in-java.jpg 295w,
-/static/1b09e08c1d6bb358816c3f9b6051a0f0/c739e/cd-in-java.jpg 590w,
-/static/1b09e08c1d6bb358816c3f9b6051a0f0/5413e/cd-in-java.jpg 885w,
-/static/1b09e08c1d6bb358816c3f9b6051a0f0/1f853/cd-in-java.jpg 1024w&quot;
+        src=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/1c72d/cd-in-java.jpg&quot;
+        srcset=&quot;/static/1b09e08c1d6bb358816c3f9b6051a0f0/a80bd/cd-in-java.jpg 148w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/1c91a/cd-in-java.jpg 295w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/1c72d/cd-in-java.jpg 590w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/a8a14/cd-in-java.jpg 885w,
+/static/1b09e08c1d6bb358816c3f9b6051a0f0/72e01/cd-in-java.jpg 1024w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/danielbryantuk&quot;&gt;@danielbryantuk&lt;/a&gt; consultant and author of the book Containerizing Continuous Delivery in Java (O’REILLY, 2018) reviewed the flows of CI/CD and discussed the particularities of Java and containers, Oracle is going all in supporting containerized apps with Java 9, the ability of run an optimized JRE with only the resources that your application needs is on our way (see java 9 modules)&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/159e191cfef0f68528cf031186f6b8a9/1f853/jdk-release-roadmap.jpg&quot;
+    href=&quot;/static/159e191cfef0f68528cf031186f6b8a9/72e01/jdk-release-roadmap.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 55.56640625%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABuxrYQ3FAv//EABoQAAMBAAMAAAAAAAAAAAAAAAECEQMAEBP/2gAIAQEAAQUCHiyMmUXDMikct6//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BrX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8BjNf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASECEDFhkf/aAAgBAQAGPwJwuGzNJDv/AP/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVHx/9oACAEBAAE/IcxlkdsQPQvb+wLoWbFcm5c//9oADAMBAAIAAwAAABCXD//EABcRAQADAAAAAAAAAAAAAAAAAAARIVH/2gAIAQMBAT8Qshj/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFh/9oACAECAQE/EIU0f//EABsQAQEAAwEBAQAAAAAAAAAAAAERACExQXGR/9oACAEBAAE/EA+Z1kDZ0fTDb1eFJjtyQWt/GDFCUPcaVlbvLe7+mf/Z&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABuxrYQ4E4v//EABoQAAMBAAMAAAAAAAAAAAAAAAECEQMAEBP/2gAIAQEAAQUCHiyMmUXDMikct6//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BrX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8BjNf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASECEDFhkf/aAAgBAQAGPwJwuGzNJDv/AP/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVHx/9oACAEBAAE/Ic1lkdsQPQvb+wLoWbFcm5bP/9oADAMBAAIAAwAAABCUD//EABcRAQADAAAAAAAAAAAAAAAAAAARIVH/2gAIAQMBAT8Qshj/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFh/9oACAECAQE/EIU0f//EABsQAQEAAwADAAAAAAAAAAAAAAERACExQXGR/9oACAEBAAE/EKUzrEDZ0ezCb1eCkx+5ILW/GDFCUPctLK3eat79mf/Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;jdk release roadmap&quot;
         title=&quot;&quot;
-        src=&quot;/static/159e191cfef0f68528cf031186f6b8a9/c739e/jdk-release-roadmap.jpg&quot;
-        srcset=&quot;/static/159e191cfef0f68528cf031186f6b8a9/8ee9c/jdk-release-roadmap.jpg 148w,
-/static/159e191cfef0f68528cf031186f6b8a9/ebbe7/jdk-release-roadmap.jpg 295w,
-/static/159e191cfef0f68528cf031186f6b8a9/c739e/jdk-release-roadmap.jpg 590w,
-/static/159e191cfef0f68528cf031186f6b8a9/5413e/jdk-release-roadmap.jpg 885w,
-/static/159e191cfef0f68528cf031186f6b8a9/1f853/jdk-release-roadmap.jpg 1024w&quot;
+        src=&quot;/static/159e191cfef0f68528cf031186f6b8a9/1c72d/jdk-release-roadmap.jpg&quot;
+        srcset=&quot;/static/159e191cfef0f68528cf031186f6b8a9/a80bd/jdk-release-roadmap.jpg 148w,
+/static/159e191cfef0f68528cf031186f6b8a9/1c91a/jdk-release-roadmap.jpg 295w,
+/static/159e191cfef0f68528cf031186f6b8a9/1c72d/jdk-release-roadmap.jpg 590w,
+/static/159e191cfef0f68528cf031186f6b8a9/a8a14/jdk-release-roadmap.jpg 885w,
+/static/159e191cfef0f68528cf031186f6b8a9/72e01/jdk-release-roadmap.jpg 1024w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://twitter.com/DonaldOJDK&quot;&gt;@DonaldOJDK&lt;/a&gt; Senior Director of Product Management for Oracle talked about the new release cycles of java and how the language will move forward faster than ever with a new release each 6 months. There will be versions that will not be maintained for longer which will force the companies that choose this path to always upgrade the java version of their projects, but if your company is more conservative you still have the option to stay in the versions that are long time supported.&lt;/p&gt;
 &lt;p&gt;It’s a common agreement that our team would enjoy it more if the speakers had dive deep into the topics, but it’s also understandable that due to the small duration of the sessions it’s challenging to do so. Now it’s time to share the knowledge internally with teams and prepare towards the future of fast pace java releases.&lt;/p&gt;
-&lt;p&gt;Happy coding.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building Scalable APIs with AWS API Gateway]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blogWe strongly believe that is important to keep up to date in our tech stack and be close…]]></description><link>https://vitorreis.com//2016/building-scalable-apis-with-aws-api-gateway/</link><guid isPermaLink="false">https://vitorreis.com//2016/building-scalable-apis-with-aws-api-gateway/</guid><pubDate>Fri, 16 Sep 2016 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
+&lt;p&gt;Happy coding.&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Building Scalable APIs with AWS API Gateway]]></title><description><![CDATA[Originally published at foodora/foodpanda tech blog We strongly believe that is important to keep up to date in our tech stack and be close…]]></description><link>https://vitorreis.com/2016/building-scalable-apis-with-aws-api-gateway/</link><guid isPermaLink="false">https://vitorreis.com/2016/building-scalable-apis-with-aws-api-gateway/</guid><pubDate>Fri, 16 Sep 2016 22:12:03 GMT</pubDate><content:encoded>&lt;blockquote&gt;
 &lt;p&gt;Originally published at &lt;a href=&quot;https://tech.foodora.com/building-scalable-apis-with-aws-api-gateway&quot;&gt;foodora/foodpanda tech blog&lt;/a&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;We strongly believe that is important to keep up to date in our tech stack and be close to the tech community. Therefore foodpanda hosted the AWS User Group Berlin edition of November 2016.
 At this event, we were invited to share our experience using serverless architecture with AWS API Gateway.&lt;/p&gt;
-&lt;p&gt;
-  &lt;a
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/530715799b7557e11da19dff106ad62f/1f853/building-scalable-apis-photo.jpg&quot;
+    href=&quot;/static/530715799b7557e11da19dff106ad62f/72e01/building-scalable-apis-photo.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 56.25%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAFaYLlyFKf/xAAaEAACAwEBAAAAAAAAAAAAAAABAgADEhMz/9oACAEBAAEFAulc2meiggR/GxF3/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8BSf/EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABsQAAICAwEAAAAAAAAAAAAAAAABESECEDFx/9oACAEBAAY/Au2iRzrL0dH/xAAcEAEAAwACAwAAAAAAAAAAAAABABEhQVFhkcH/2gAIAQEAAT8hcwoDsPLJcSGNyF1DVfCD3BfRP//aAAwDAQACAAMAAAAQCx//xAAXEQADAQAAAAAAAAAAAAAAAAAAAREx/9oACAEDAQE/EIpO6U//xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAHhABAAICAQUAAAAAAAAAAAAAAREhADFRQWFxgZH/2gAIAQEAAT8QatMECE7MpjbkLfb7iEENHEGQSrZMm768+8BMiMDQFKyGoTDAuPOf/9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAHKcDlnFU//xAAaEAACAwEBAAAAAAAAAAAAAAABAgADEhMz/9oACAEBAAEFAulc2meiggR/GxF3/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/AUyf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIQIQMXH/2gAIAQEABj8C7aJHOsvR0f/EABwQAQADAAIDAAAAAAAAAAAAAAEAESFBUXGRof/aAAgBAQABPyFegoDs8slyodshZkNV8IPcJV9T/9oADAMBAAIAAwAAABAM3//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQMBAT8QiT0p/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qp//EABwQAQACAwEBAQAAAAAAAAAAAAEAESExUUFhkf/aAAgBAQABPxB5rBA1e4eZthc/P2NDThyibItpdm8+9hIsVgcAUMQRoLGhcn//2Q==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Foodpanda Tech speaking about AWS API Gateway&quot;
         title=&quot;&quot;
-        src=&quot;/static/530715799b7557e11da19dff106ad62f/c739e/building-scalable-apis-photo.jpg&quot;
-        srcset=&quot;/static/530715799b7557e11da19dff106ad62f/8ee9c/building-scalable-apis-photo.jpg 148w,
-/static/530715799b7557e11da19dff106ad62f/ebbe7/building-scalable-apis-photo.jpg 295w,
-/static/530715799b7557e11da19dff106ad62f/c739e/building-scalable-apis-photo.jpg 590w,
-/static/530715799b7557e11da19dff106ad62f/5413e/building-scalable-apis-photo.jpg 885w,
-/static/530715799b7557e11da19dff106ad62f/1f853/building-scalable-apis-photo.jpg 1024w&quot;
+        src=&quot;/static/530715799b7557e11da19dff106ad62f/1c72d/building-scalable-apis-photo.jpg&quot;
+        srcset=&quot;/static/530715799b7557e11da19dff106ad62f/a80bd/building-scalable-apis-photo.jpg 148w,
+/static/530715799b7557e11da19dff106ad62f/1c91a/building-scalable-apis-photo.jpg 295w,
+/static/530715799b7557e11da19dff106ad62f/1c72d/building-scalable-apis-photo.jpg 590w,
+/static/530715799b7557e11da19dff106ad62f/a8a14/building-scalable-apis-photo.jpg 885w,
+/static/530715799b7557e11da19dff106ad62f/72e01/building-scalable-apis-photo.jpg 1024w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;About API Gateway&lt;/h2&gt;
 &lt;p&gt;There is a lot of excitement around serverless architecture and it is for a good reason, abstracting the tedious details of configuration and management of your architecture can make a lot of sense for the right application, the AWS API gateway is one of the several tools that allow you this.&lt;/p&gt;
 &lt;p&gt;Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale, it handles all the tasks involved in accepting and processing up to hundreds thousands of concurrent API calls, including:&lt;/p&gt;
@@ -538,40 +512,37 @@ Authorization and access control
 Monitoring
 API version management&lt;/p&gt;
 &lt;p&gt;You pay only for the API calls you receive and the amount of data transferred out.
-
-  &lt;a
+&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/89c80/amazon-gateway-api-call-flow.jpg&quot;
+    href=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/c2807/amazon-gateway-api-call-flow.jpg&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
-  
-  &lt;span
-    class=&quot;gatsby-resp-image-wrapper&quot;
-    style=&quot;position: relative; display: block;  max-width: 590px; margin-left: auto; margin-right: auto;&quot;
-  &gt;
     &lt;span
-      class=&quot;gatsby-resp-image-background-image&quot;
-      style=&quot;padding-bottom: 51.707317073170735%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHcSkoqIV//xAAaEAACAgMAAAAAAAAAAAAAAAABEQACITFB/9oACAEBAAEFAoy3Drthn//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQMBAT8BP//EABQRAQAAAAAAAAAAAAAAAAAAABD/2gAIAQIBAT8BP//EABcQAAMBAAAAAAAAAAAAAAAAAAAgMUH/2gAIAQEABj8CJi//xAAbEAEAAgIDAAAAAAAAAAAAAAABABEhURAxQf/aAAgBAQABPyEXVwsdGjVwNZodcAvqA5BP/9oADAMBAAIAAwAAABDcD//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ECf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAQEAAwEBAAAAAAAAAAAAAREAITFBYXH/2gAIAQEAAT8Qjfp71l2HIFx58mk2ruus0UZ+aA1aFuKKmem//9k=&apos;); background-size: cover; display: block;&quot;
-    &gt;
-      &lt;img
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHcR5xUUr//xAAZEAADAAMAAAAAAAAAAAAAAAAAAREhMUH/2gAIAQEAAQUCyV2j11pH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAAAEg/9oACAEBAAY/Ahz/AP/EABoQAQACAwEAAAAAAAAAAAAAAAEAERAhMUH/2gAIAQEAAT8hGmi4cQuh7A1tBwC+ox2E/9oADAMBAAIAAwAAABAcz//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ECf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAQADAQEBAAAAAAAAAAAAAREAITFBUXH/2gAIAQEAAT8QqfR7zEWMyWxj5MGNQ2XmNFFPzJO20HeUKmdTP//Z&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Amazon API Gateway call flow&quot;
         title=&quot;&quot;
-        src=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/c739e/amazon-gateway-api-call-flow.jpg&quot;
-        srcset=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/8ee9c/amazon-gateway-api-call-flow.jpg 148w,
-/static/fc18f58ae7e7855d2d03491f092da3fa/ebbe7/amazon-gateway-api-call-flow.jpg 295w,
-/static/fc18f58ae7e7855d2d03491f092da3fa/c739e/amazon-gateway-api-call-flow.jpg 590w,
-/static/fc18f58ae7e7855d2d03491f092da3fa/89c80/amazon-gateway-api-call-flow.jpg 615w&quot;
+        src=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/1c72d/amazon-gateway-api-call-flow.jpg&quot;
+        srcset=&quot;/static/fc18f58ae7e7855d2d03491f092da3fa/a80bd/amazon-gateway-api-call-flow.jpg 148w,
+/static/fc18f58ae7e7855d2d03491f092da3fa/1c91a/amazon-gateway-api-call-flow.jpg 295w,
+/static/fc18f58ae7e7855d2d03491f092da3fa/1c72d/amazon-gateway-api-call-flow.jpg 590w,
+/static/fc18f58ae7e7855d2d03491f092da3fa/c2807/amazon-gateway-api-call-flow.jpg 615w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
       /&gt;
-    &lt;/span&gt;
-  &lt;/span&gt;
-  
   &lt;/a&gt;
-    &lt;/p&gt;
+    &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Reasons to choose API Gateway&lt;/h2&gt;
 &lt;p&gt;Speed and reduced infrastructure footprint are the 2 biggest reasons to choose to use API Gateway. When you choose API gateway all the servers, security, scaling and monitoring are managed for you.&lt;/p&gt;
 &lt;p&gt;The API gateway is designed for the developer who wants to quickly build APIs while reducing the cross team developing efforts and increase the time to market for your applications.&lt;/p&gt;
