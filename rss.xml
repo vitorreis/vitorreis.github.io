@@ -1,80 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog RSS Feed]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Apr 2026 10:57:07 GMT</lastBuildDate><item><title><![CDATA[End to End test automation for web apps]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
-&lt;h2&gt;What makes a test framework good?&lt;/h2&gt;
-&lt;p&gt;In a few words, it must be simple for:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Setting up tests&lt;/li&gt;
-&lt;li&gt;Writing tests&lt;/li&gt;
-&lt;li&gt;Running tests&lt;/li&gt;
-&lt;li&gt;Debugging&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;Strategies for testing&lt;/h2&gt;
-&lt;p&gt;There are many strategies for test automation out there, the main ones usually being:&lt;/p&gt;
-&lt;h4&gt;1. Stub Requests&lt;/h4&gt;
-&lt;p&gt;Pros&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Fast / Easy / Flexible&lt;/li&gt;
-&lt;li&gt;No Server / DB&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Cons&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Not True E2E&lt;/li&gt;
-&lt;li&gt;Require Fixtures&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;2. Static User&lt;/h4&gt;
-&lt;p&gt;Pros&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Real Session E2E&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Cons&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Requires Server&lt;/li&gt;
-&lt;li&gt;Seed the DB&lt;/li&gt;
-&lt;li&gt;Shares Test State&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h4&gt;3. Dynamic User&lt;/h4&gt;
-&lt;p&gt;Pros&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;No State mutation&lt;/li&gt;
-&lt;li&gt;Flexible / Powerful&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Cons&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;DB Setup / Teardown&lt;/li&gt;
-&lt;li&gt;Slow / Complex&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;The Cypress solution for it&lt;/h2&gt;
-&lt;p&gt;In 2019 I gave a talk for the React Berlin community in which under 25 minutes we discussed common problems, solutions and how Cypress can allow you implementing test automation for web apps in a fast, easy and maintainable way.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;&lt;span
-      class=&quot;gatsby-resp-image-wrapper&quot;
-      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
-    &gt;
-      &lt;span
-    class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACu0lEQVR42l2Ra0jTURjGR/ShD1FkXqZuzcvMSypqaurESrto2VVKzYQMrZVilEZShJ+iSCGIIBAs6Y5S5Jxzik5EKchN1/9fko0kE+z2wTmlG+Svs60iOvDjed/nwMP7nqMo9y3kTIiOGlUWp3zWcmpF0n8IzyfZq6Kv9U3m2KJomqqa+GQf5afdxvzzEeRnQwz0mlCYtTuZ0q3DsTYNR2gEDk24lxCvvglWMxGgxKHWMK7R8lr4r1VhGBJKqc/IZ7a6hm/6cirydOgSo1G0+W/B7hfIsF8oVmU41sB/UIYxkJRLz6YynsRkYAvWYtVEYQvQcnd9Ff6qeJr1J5htaeHQ9mziwsNQPFLnM561HikjBzlzE3LWZqT0jUiifpmayaPr/VyRwVhUh7xSiTUkmrGgSM4n7GPxkuUUbk2hrGwf2YmRRAb5i8DAXMai1zAak8xzN3Gp2GNTPMhR8XTUtdB0f5qebXokv2BsIlBWRtCwroi9hcWc1pdQe3A3RwsLKNmzC8VD9Q7G0nWMpuVgT0gXa0VgE+uOuAnSilrrrdWrGdHEYA+P5ekyFdb6O7jPh8kf2AZ/sPATZl1OFI/9NjCeEIecmMqL+CRkbRSSKhRpVRiSWmhwCJL4HEmpQloZKKZTMbxoKbazzZ5A+9A8t6+6cM2Aa04E3sxrZPD4BfoqLmI5IjjegEV/Ccuxy1iOCi2/gKWykb7Sevr219Ffco7OvJMMXRv0BE46vvBswMXCwu8JC0oNHKi+R3HlA8F9igTFHoRXJbTqt+/W6lYOnmwj//Bdbtx65Qn8/PEb0+++elaemZlB8XFqnvdvnbyfnBXv8S+u/xDeW+/d9ISTOed3T+CCGM2N+zidYsKeznZ6+7rp7umiy9yJqcuIyWz0qLv3Yvx796c2dnbQ3t6OwWDAZOrCbDbT2trKL2EWOwPoyFA2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
-  &gt;&lt;/span&gt;
-  &lt;img
-        class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;End to End automation testing with Cypress – Vitor Reis&quot;
-        title=&quot;&quot;
-        src=&quot;/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png&quot;
-        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/12f09/youtube_preview.png 148w,
-/static/eeabd525789288eb6733a12cf402649d/e4a3f/youtube_preview.png 295w,
-/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png 590w,
-/static/eeabd525789288eb6733a12cf402649d/efc66/youtube_preview.png 885w,
-/static/eeabd525789288eb6733a12cf402649d/c83ae/youtube_preview.png 1180w,
-/static/eeabd525789288eb6733a12cf402649d/68947/youtube_preview.png 1281w&quot;
-        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
-        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
-        loading=&quot;lazy&quot;
-        decoding=&quot;async&quot;
-      /&gt;
-    &lt;/span&gt;&lt;/a&gt;
-Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
-&lt;h2&gt;References&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;Cypress - &lt;a href=&quot;https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App&quot;&gt;Test a React Todo App&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Brian Mann – &lt;a href=&quot;https://www.youtube.com/watch?v=5XQOK0v_YRE&quot;&gt;I see your point, but…  - AssertJS 2018&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[Automação de testes para aplicações web]]></title><description><![CDATA[Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais…]]></description><link>https://vitorreis.com/pt/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com/pt/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais functionalidades são adicionadas o tamanho do código fonte tende a crescer, se o seu produto está tendo sucesso o seu time pode crescer e com isso o risco de introduzir regressões é ainda maior.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Vitor Reis Blog RSS Feed]]></title><description><![CDATA[This is my personal blog, where I share about the people I meet, the books I'm reading, and what I'm learning. I hope that you'll join the conversation.]]></description><link>https://vitorreis.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Apr 2026 11:28:34 GMT</lastBuildDate><item><title><![CDATA[Automação de testes para aplicações web]]></title><description><![CDATA[Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais…]]></description><link>https://vitorreis.com/pt/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com/pt/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Testes manuais é uma das coisas mais dolorosas no ciclo de vida de desenvolvimento de software, conforme os produtos evolvem a emais functionalidades são adicionadas o tamanho do código fonte tende a crescer, se o seu produto está tendo sucesso o seu time pode crescer e com isso o risco de introduzir regressões é ainda maior.&lt;/p&gt;
 &lt;h2&gt;O que faz um biblioteca de testes ser boa?&lt;/h2&gt;
 &lt;p&gt;Em poucas palavras, deve ser simples de:&lt;/p&gt;
 &lt;ul&gt;
@@ -126,7 +50,7 @@ Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
     &gt;
       &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACu0lEQVR42l2Ra0jTURjGR/ShD1FkXqZuzcvMSypqaurESrto2VVKzYQMrZVilEZShJ+iSCGIIBAs6Y5S5Jxzik5EKchN1/9fko0kE+z2wTmlG+Svs60iOvDjed/nwMP7nqMo9y3kTIiOGlUWp3zWcmpF0n8IzyfZq6Kv9U3m2KJomqqa+GQf5afdxvzzEeRnQwz0mlCYtTuZ0q3DsTYNR2gEDk24lxCvvglWMxGgxKHWMK7R8lr4r1VhGBJKqc/IZ7a6hm/6cirydOgSo1G0+W/B7hfIsF8oVmU41sB/UIYxkJRLz6YynsRkYAvWYtVEYQvQcnd9Ff6qeJr1J5htaeHQ9mziwsNQPFLnM561HikjBzlzE3LWZqT0jUiifpmayaPr/VyRwVhUh7xSiTUkmrGgSM4n7GPxkuUUbk2hrGwf2YmRRAb5i8DAXMai1zAak8xzN3Gp2GNTPMhR8XTUtdB0f5qebXokv2BsIlBWRtCwroi9hcWc1pdQe3A3RwsLKNmzC8VD9Q7G0nWMpuVgT0gXa0VgE+uOuAnSilrrrdWrGdHEYA+P5ekyFdb6O7jPh8kf2AZ/sPATZl1OFI/9NjCeEIecmMqL+CRkbRSSKhRpVRiSWmhwCJL4HEmpQloZKKZTMbxoKbazzZ5A+9A8t6+6cM2Aa04E3sxrZPD4BfoqLmI5IjjegEV/Ccuxy1iOCi2/gKWykb7Sevr219Ffco7OvJMMXRv0BE46vvBswMXCwu8JC0oNHKi+R3HlA8F9igTFHoRXJbTqt+/W6lYOnmwj//Bdbtx65Qn8/PEb0+++elaemZlB8XFqnvdvnbyfnBXv8S+u/xDeW+/d9ISTOed3T+CCGM2N+zidYsKeznZ6+7rp7umiy9yJqcuIyWz0qLv3Yvx796c2dnbQ3t6OwWDAZOrCbDbT2trKL2EWOwPoyFA2AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACtklEQVR42m2Qa0jTURjGV/QlIujiZbrV1raYt9S81NJQupdd6Equ7EJiWi2RrBChoi9FFwmCCIzYB6msKE3n1CRHaXRz239bSaUhWVJG4LaMLGi/jn+jJDrw4314zuHheY+iIGwzZdpMDqqzKJ2SSunklP/w1z8UlsbesbFUWirpd7sJSU6+epz4nrZxv8WOotmwhr7MuXSnmujWzaRbq/9Dl+CNSk2PUkn3NA2vNQbZ61LrqEvexlHTSgL7DzBUlE/B8gwykmNQ3IxYiidcybPwGXQo9XREjUKp435aDneX5PMoPhOXyoBTE4NLaeBKtoWpqllcKixmwGplx4oFxOu0KG5PW8WrrGy8GYvwzV+ML2sJ3nkL8Ar9Ys58bl90cO452Mxl+KYo6dDG0hlt5EjyJsaNn8TmZens3LWJhbONGKMjRGDUcjpj43HHpSIJPLPm4ElIQ0pIx2dMpL7MSuXVPlpyCvGGq3CKQJ9yJmfmmtlg3sLhPXkczFtHYe5Gtq5fO9LwhSkDybQQKcmEK9qAK0on0Ms4xdquyBm41Qbc02OQdHE8nhiN81gVw+fj2x+42n8Q+gmBoB9FTVg2L5MS8CaLRokpePVGPGotnum6kanSCK1HilAjiZU9kSqejJmAs/yyHCi1D1J1PkhwAIJfRKA1p4K2fSe5t/sUrYWncOw7i2PPaRx7z9BaJLyCE7RaKmjdcZx7ueU48o7QsLKU9gsP5cDerm88exCE0O+GG7fb2FpSjdlyA/N+geW6mKMZ9sR98Q22lNxiW+ktVudfw1r1Sg78/Ok7H94NyYF+/wCKT+8HxT8EZPp7gyNazP5/eRv88+ZDT4Av/u9yYCgUkhk+fr9o2FxfS0tLE03NduyNNhrsdTQ01ov5D6M8u9D1tjvU1NRQW3sHm60Bu91OdXU1vwCdcTsOnK+2zwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -147,6 +71,82 @@ Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
     &lt;/span&gt;&lt;/a&gt;
 Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
 &lt;h2&gt;Referências&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Cypress - &lt;a href=&quot;https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App&quot;&gt;Test a React Todo App&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Brian Mann – &lt;a href=&quot;https://www.youtube.com/watch?v=5XQOK0v_YRE&quot;&gt;I see your point, but…  - AssertJS 2018&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content:encoded></item><item><title><![CDATA[End to End test automation for web apps]]></title><description><![CDATA[Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more…]]></description><link>https://vitorreis.com/2019/end-to-end-test-automation/</link><guid isPermaLink="false">https://vitorreis.com/2019/end-to-end-test-automation/</guid><pubDate>Thu, 21 Nov 2019 22:12:03 GMT</pubDate><content:encoded>&lt;p&gt;Manual testing is by far one of the most painful things in the software development lifecycle, as your products evolve and more functionality is added codebases tends to grow, if your product is being successful the team may grow as well and with it the risk of introducing a regression is even higher.&lt;/p&gt;
+&lt;h2&gt;What makes a test framework good?&lt;/h2&gt;
+&lt;p&gt;In a few words, it must be simple for:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Setting up tests&lt;/li&gt;
+&lt;li&gt;Writing tests&lt;/li&gt;
+&lt;li&gt;Running tests&lt;/li&gt;
+&lt;li&gt;Debugging&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Strategies for testing&lt;/h2&gt;
+&lt;p&gt;There are many strategies for test automation out there, the main ones usually being:&lt;/p&gt;
+&lt;h4&gt;1. Stub Requests&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fast / Easy / Flexible&lt;/li&gt;
+&lt;li&gt;No Server / DB&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Not True E2E&lt;/li&gt;
+&lt;li&gt;Require Fixtures&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;2. Static User&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Real Session E2E&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Requires Server&lt;/li&gt;
+&lt;li&gt;Seed the DB&lt;/li&gt;
+&lt;li&gt;Shares Test State&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4&gt;3. Dynamic User&lt;/h4&gt;
+&lt;p&gt;Pros&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;No State mutation&lt;/li&gt;
+&lt;li&gt;Flexible / Powerful&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Cons&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;DB Setup / Teardown&lt;/li&gt;
+&lt;li&gt;Slow / Complex&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;The Cypress solution for it&lt;/h2&gt;
+&lt;p&gt;In 2019 I gave a talk for the React Berlin community in which under 25 minutes we discussed common problems, solutions and how Cypress can allow you implementing test automation for web apps in a fast, easy and maintainable way.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=vSFTpcxmAYQ&quot;&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; &quot;
+    &gt;
+      &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsTAAALEwEAmpwYAAACtklEQVR42m2Qa0jTURjGV/QlIujiZbrV1raYt9S81NJQupdd6Equ7EJiWi2RrBChoi9FFwmCCIzYB6msKE3n1CRHaXRz239bSaUhWVJG4LaMLGi/jn+jJDrw4314zuHheY+iIGwzZdpMDqqzKJ2SSunklP/w1z8UlsbesbFUWirpd7sJSU6+epz4nrZxv8WOotmwhr7MuXSnmujWzaRbq/9Dl+CNSk2PUkn3NA2vNQbZ61LrqEvexlHTSgL7DzBUlE/B8gwykmNQ3IxYiidcybPwGXQo9XREjUKp435aDneX5PMoPhOXyoBTE4NLaeBKtoWpqllcKixmwGplx4oFxOu0KG5PW8WrrGy8GYvwzV+ML2sJ3nkL8Ar9Ys58bl90cO452Mxl+KYo6dDG0hlt5EjyJsaNn8TmZens3LWJhbONGKMjRGDUcjpj43HHpSIJPLPm4ElIQ0pIx2dMpL7MSuXVPlpyCvGGq3CKQJ9yJmfmmtlg3sLhPXkczFtHYe5Gtq5fO9LwhSkDybQQKcmEK9qAK0on0Ms4xdquyBm41Qbc02OQdHE8nhiN81gVw+fj2x+42n8Q+gmBoB9FTVg2L5MS8CaLRokpePVGPGotnum6kanSCK1HilAjiZU9kSqejJmAs/yyHCi1D1J1PkhwAIJfRKA1p4K2fSe5t/sUrYWncOw7i2PPaRx7z9BaJLyCE7RaKmjdcZx7ueU48o7QsLKU9gsP5cDerm88exCE0O+GG7fb2FpSjdlyA/N+geW6mKMZ9sR98Q22lNxiW+ktVudfw1r1Sg78/Ok7H94NyYF+/wCKT+8HxT8EZPp7gyNazP5/eRv88+ZDT4Av/u9yYCgUkhk+fr9o2FxfS0tLE03NduyNNhrsdTQ01ov5D6M8u9D1tjvU1NRQW3sHm60Bu91OdXU1vwCdcTsOnK+2zwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;End to End automation testing with Cypress – Vitor Reis&quot;
+        title=&quot;&quot;
+        src=&quot;/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png&quot;
+        srcset=&quot;/static/eeabd525789288eb6733a12cf402649d/12f09/youtube_preview.png 148w,
+/static/eeabd525789288eb6733a12cf402649d/e4a3f/youtube_preview.png 295w,
+/static/eeabd525789288eb6733a12cf402649d/fcda8/youtube_preview.png 590w,
+/static/eeabd525789288eb6733a12cf402649d/efc66/youtube_preview.png 885w,
+/static/eeabd525789288eb6733a12cf402649d/c83ae/youtube_preview.png 1180w,
+/static/eeabd525789288eb6733a12cf402649d/68947/youtube_preview.png 1281w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+        decoding=&quot;async&quot;
+      /&gt;
+    &lt;/span&gt;&lt;/a&gt;
+Video: Test automation with cypress, React Berlin November, 2019&lt;/p&gt;
+&lt;h2&gt;References&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;Cypress - &lt;a href=&quot;https://docs.cypress.io/examples/examples/tutorials.html#Test-a-React-Todo-App&quot;&gt;Test a React Todo App&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;Brian Mann – &lt;a href=&quot;https://www.youtube.com/watch?v=5XQOK0v_YRE&quot;&gt;I see your point, but…  - AssertJS 2018&lt;/a&gt;&lt;/li&gt;
@@ -211,7 +211,7 @@ further deviation.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAABYlAAAWJQFJUiTwAAABcklEQVR42m1SCW7DIBD0/78YqVIUxxBj7ttg08FIUdN2ZKHdZfaYxZMQglLKOZdS5rzHGCgTm45cB8IdU3HT4TjO1tr5BxNjjFxAPiUELjdxVTGkytg6zzPiowFO0GAopUa/aV1XWGRZXrTj1cEIRZjBIle5Ed+27fl89mvGlmXBOeWc63Hspez7Xmst/YOd99xRLsDAbbk44xzkySoV+JaVTErpFzUvmqTogobI1sD23ocI5R3tByZnbbA2eo9dKSEM1qbkrlVi64lFlT07q42x1oKNblfBd7L38DA5yjO2YeuWc7/M4XH3j7u7fzlKtJRGiKPW41dySmn4GA+vpbWG2hhCOY4aA76oNZ8fkpK40lrKx9hoOJIxEjIxXnfPE0uKMaEZihrnfErQko35SAbpnYwHNMa8t3JeJVAO74Z3wpbRGYV/aHYOewevdzDo4VAF+eNEHLrGRJgRtx+aoRPRf/++gTcVU9xutxDCILfWvgGRgLO4d0sOUAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAIAAADtbgqsAAAACXBIWXMAABYlAAAWJQFJUiTwAAABaklEQVR42l1SCY6DMAzk/2+sVqq2QO6L3CR0p2RbtbUMOPb4mjAppQghUkqtdak1pUi5EjZJG4n0wjyM4zjub3I8ZeKck1NGFS6EcombFEvjnM3zTUqBEKUU1dd1BcYYM/pNjDFY67IgTAnBQxlfKWOcwwH0qA5bCDHP8zCWZYF/KqW03uu+11pbazv0YZdaHrKfAgPR0///HuDJGxOlqEZnaxyj0KzVWPI4PygXY0wp4dR7f19+8tsWty2FAK6MUg60GVOdKYIDe+w1e++c27YNaHR7J2/yIeCEyUOMYEsq7ZUMyy3+XgP0+uPparV2Sh2t9a/knPM4Yxnwaa3FtinGvfeWIjRZJ283TUhiFHx8jB3Q+UzGSMjEeP08Pkrk3E7+nPch52pN2dxHMpj8Tn6yAj+i8OA6cT1gGZWO+/vO3oN34NABOAyCKsgfb/ix1yiKEMAfO2NPeEefr79vyAuKKS6XC67tBf4DTTa0JBSRn9IAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -256,7 +256,7 @@ further deviation.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 64.86486486486486%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZ0lEQVR42nVSi1LEIAzs/3+i54xznn3yptAXHOdClJ46Zloa0iy7SWi01m3bimJKqRijlKJjRtptEG6UC9N41pQef63hnPfFxnGcpqnvO6ktsgFbtgORiTG8SGCMgQAOViQPw9DAwwc5OEVKybJxIY1QZp5nisNylHNEFpy5bbQ2zjlgELXGWGu991qr4uetKYbSkAYHgB+ysU9UUEr3+z2GgDWls8ZULISAduSEGE8wmiQ/bqvg2OAHSEAIJ30b4sdxUDwVgnpylg1y03e2ve3LYop4ZDzLAy3iKO03mHjg7c6J92t7eeleL+r6tmt5GJ3KLyjOUO8zuIg6mWsZcIhhL/30Si1DF2e7WSuHXk/j4eb4H5jkVdko1WM2SgEMpOEcWpaxP8HrugJTmakxtWbkHTHOznPBuRB7CLtRKX7lNzRu6gROgWbSQlOhCiEBJ9INwVqVZjCy6zyfZ/tstfO4nrhUBP4ETQvuudjFZVIAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 64.86486486486486%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAABYlAAAWJQFJUiTwAAABZElEQVR42m2S61aDMBCEef9HtP7QVuSaO+ESKPolsbRq90DOZJnJzi4pjDFlWYoUSqlt26QUVW+UnWsxNGrs9MSzfz2Jou/7uq6rqmpTgKR2sJFNcyDTdR0vBJgUALA2TYOqkFKCIJECQ+3gKCOUdc6xEyJqEhDDMIzjOM/zNE2sBXvcwrM2sr33WmtrjYtPDPoiAw2M4Jdt9vueO9qv1ys9s94yKZtwzmfCXUxZ9XGZZJ8ZqawF7LcgH0LIebaPR0fb87yYqnLlZRm9MdEqjEd767pinqb+inMd0OIHcX4vTy+fryd1flu0Ckbv6RMElIP3UZxM3SsfbQAYDnNapompeq3GpkI3OyubWrdtSOTn4mzvsB3W1Ts3aoVYt40RfbCa4+5i/hiao3IezNEzvIDnwfciXpFlXRej9u2HX2APfZ4Ep8TekpfH38a08y2gGdbDaRTDzkUOP/u/OCbP9eQiZvE3PaXvJXoNqOEAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -291,7 +291,7 @@ further deviation.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB2klEQVR42k1Oz08TQRjdK0cPxuj/YhQDwfRialBPwpHEg3cSLqZBCaVAUwMevKrRVJIWYlp+iQtpbBEu2G01aQUSgS67S7vddne7+81zpksqL18mM/N+fE8yFaWWyerbO5os67JsfM8buZyZz3uGAQ7G0EP37tdUWymphR+2ei41LVMztIZZNy70RuOiXjfarSZXkd8hzyVfDKMOyENwMmKM2W6LyJcYEc8Uw0hki3jqeOTatufYnmu5ju37Hut6OHgqhEUUkcSTMwF1pd5ViGziuX7AMefcO0nyf+m/hbcSNFj7yC2Ns66QHI1cPRDYygScg3cF/CwXsTfMBRLXqE1UK5azO4bOwfscctMvaGcoiHQr8zieVTRsrP5x14bg7b9awdbHT9gPB2Z/rYqpp29a8RtA+eVnLIUGsHWHdzirNNVEP07nsseIPJptxa8Dv2dSSIVD7Fv/pXnzCNGRRStxk3OxZaSfhLF9TwPGJ8uHo33QFjb/Ymb0tZW4JcxppB8/YPJgYKZMFZHhOSt6jXORJJL3B/D1do3h2UTpcKQPtUSGb34Y7QmWQoPYuHu5uagivbjazj4HTr/soTAfw6+pBuFD6uTs7RjM9aKO5YVMT7Abj7HyNAH/APBOAehlGJVzAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 49.32432432432432%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAIAAAA7N+mxAAAACXBIWXMAABYlAAAWJQFJUiTwAAAB10lEQVR42k1OS2sTURidbZe6UPwxogGlqAu1lC7TpYLgD/CxKPVRnJSkjVoEt1KUVEgU6VRbdVoiSW03mofS2gfSmunMNJlMMnNn5rvHOzNp6Mfh3ss953znSFa12phXjOUVXVUNVTVLJbNYtEol3zQhhnP0J3oHDc2p1rTyd0c7kGzbMky9ZTXNQ6PVOmw2zW6nLVQUeOQzCkJw8kB+D5w45w7rEgUSJxI7Q/AjgHs+McfxXcf3Osx1gsDnkUeciBEVkXoWikz9ejF9fIiHseEFcg/8vZz4E+YjCzHwIOS6O6x2l0dLyNWJ6bHAqd2H++NVGZV6BWvDQiAJjdbG5kbbXb0J7+fsNxTlMVoZjFeyzQx201Udi8oWWxiEv/74Pb68foP167E5+LiFidEXnenTQP3RHN5evojP5wJgf6OtPU1gP63sYnwk05k6BfyW88gPXeFfEz3z0g7k5Iw9fUZwqQIKI9ewnBBd7zysb48OQH+29BepZNbOhgI5FFyFeiE2k/IH48NpWz4huAdzyF0SyWcbHLfu1baTA2hkw+ShlC2fDAW5qNri+V5yRUNhZqGr3BZNP6yhnJnEr4kWYTa/9+/lDVifKgbePZ/vC1anJnn9CQH/AQz4Af3PNe8NAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -346,7 +346,7 @@ further deviation.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAU9XLyqVAv/EABoQAQEBAAMBAAAAAAAAAAAAAAECAwAEEjP/2gAIAQEAAQUC0lmcRkny8FcBTr4fP//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFJr//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAgEBPwHFf//EAB0QAAEDBQEAAAAAAAAAAAAAAAEAEBECMlFhcYH/2gAIAQEABj8Ct9RJPGqnakZb/8QAGhABAQADAQEAAAAAAAAAAAAAAQARITFBsf/aAAgBAQABPyF3sewCSPQ53YPZXWdQ0qJ0X0v/2gAMAwEAAgADAAAAEL/P/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBeygdv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EArhy//EABsQAQACAwEBAAAAAAAAAAAAAAEAESExQVFx/9oACAEBAAE/EB5sUEVWjfCN2xLgU54QNTMUVNx0bbF+Mx+WJncxNep//9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEDBAX/xAAWAQEBAQAAAAAAAAAAAAAAAAACAAH/2gAMAwEAAhADEAAAAU9XLysUAv/EABoQAQEBAAMBAAAAAAAAAAAAAAECAwAEEjP/2gAIAQEAAQUC0lmcRkny8FcJU6+Hz//EABYRAQEBAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFJr//EABYRAQEBAAAAAAAAAAAAAAAAAAARQf/aAAgBAgEBPwHFf//EAB0QAAEDBQEAAAAAAAAAAAAAAAEAEBECMlFhcYH/2gAIAQEABj8Ct9RJPGqnakZb/8QAGhABAQADAQEAAAAAAAAAAAAAAQARITFBsf/aAAgBAQABPyF3sewCSPQ53YPZXWdQUqJ0X0v/2gAMAwEAAgADAAAAELzP/8QAFxEBAQEBAAAAAAAAAAAAAAAAAQARIf/aAAgBAwEBPxBeygdv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAR/9oACAECAQE/EArhy//EABwQAQACAwADAAAAAAAAAAAAAAEAESExQVFhcf/aAAgBAQABPxAebFBFVo3wjduS4FOeoGo7FGzcVG2xfjMPliZ3MTXlP//Z&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -380,7 +380,7 @@ further deviation.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABqZp5hiZBf//EABsQAAICAwEAAAAAAAAAAAAAAAIDAAEREjJB/9oACAEBAAEFAsAQ0xUZqVq49qf/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BapD/xAAWEQADAAAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8BThT/xAAbEAACAQUAAAAAAAAAAAAAAAAAARAhIjFBgf/aAAgBAQAGPwK3RlFGdn//xAAcEAACAgIDAAAAAAAAAAAAAAABEQAhEDFRcZH/2gAIAQEAAT8heEUyfMBoecSkBqb+2Gk//9oADAMBAAIAAwAAABDTz//EABYRAQEBAAAAAAAAAAAAAAAAAAEAMf/aAAgBAwEBPxAdQQv/xAAWEQEBAQAAAAAAAAAAAAAAAAABABH/2gAIAQIBAT8QfQS7/8QAGxABAAMAAwEAAAAAAAAAAAAAAQARMRBhodH/2gAIAQEAAT8QEAs2eoBROa+RnUK2HbE68DGf/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUBAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAABAP/aAAwDAQACEAMQAAABqZp5JiZAf//EABoQAAICAwAAAAAAAAAAAAAAAAIDAAEREjL/2gAIAQEAAQUCwBDTFRmpWriVP//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAwEBPwFqkP/EABcRAAMBAAAAAAAAAAAAAAAAAAABERL/2gAIAQIBAT8BTho//8QAGxAAAgEFAAAAAAAAAAAAAAAAAAEQISIxQYH/2gAIAQEABj8Ct0ZRRnZ//8QAHBAAAwACAwEAAAAAAAAAAAAAAAERITFBUXGR/9oACAEBAAE/IbjWVL2IYXzI7Q8G/wBHJof/2gAMAwEAAgADAAAAENPv/8QAFhEBAQEAAAAAAAAAAAAAAAAAAQAx/9oACAEDAQE/EB1BC//EABYRAQEBAAAAAAAAAAAAAAAAAAEAEf/aAAgBAgEBPxB9BKv/xAAbEAEAAwADAQAAAAAAAAAAAAABABExEGGh0f/aAAgBAQABPxAQCzZ6gVE5r5GXQrYdsTpwcZ//2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -413,7 +413,7 @@ further deviation.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFKlD1h8lA//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERID/9oACAEBAAEFAlq35gJlJZgZsT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAIQEQETH/2gAIAQEABj8ChGs7Uuv/xAAcEAEBAAICAwAAAAAAAAAAAAABACFRETFBYZH/2gAIAQEAAT8hxT2Ql2QPduP2d0bhd4L/2gAMAwEAAgADAAAAELQ//8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxB7Sn//xAAXEQEAAwAAAAAAAAAAAAAAAAAAAREx/9oACAECAQE/EIxT/8QAGxABAQADAAMAAAAAAAAAAAAAAREAITFBYaH/2gAIAQEAAT8QjdDk07ZhpB14J83ntOIO+5FzQO55K1K5/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAQFA//EABUBAQEAAAAAAAAAAAAAAAAAAAEA/9oADAMBAAIQAxAAAAFKlD1h8lA//8QAGRAAAgMBAAAAAAAAAAAAAAAAAQIAERID/9oACAEBAAEFAlq35gJlJZgZsT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAZEAACAwEAAAAAAAAAAAAAAAAAIQEQETH/2gAIAQEABj8ChGs7Uuv/xAAbEAEBAAIDAQAAAAAAAAAAAAABACFRETFBYf/aAAgBAQABPyHFPZDE+yB9t5ndG4XeF//aAAwDAQACAAMAAAAQtP8A/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERMf/aAAgBAwEBPxB7Sn//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQIBAT8QjH//xAAbEAEAAwEAAwAAAAAAAAAAAAABABExIWFxof/aAAgBAQABPxCnmnMPWoKAdcFfOzyH3KG9lLmwNmovUtn/2Q==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -446,7 +446,7 @@ further deviation.&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABuxrYQ4E4v//EABoQAAMBAAMAAAAAAAAAAAAAAAECEQMAEBP/2gAIAQEAAQUCHiyMmUXDMikct6//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BrX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8BjNf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASECEDFhkf/aAAgBAQAGPwJwuGzNJDv/AP/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVHx/9oACAEBAAE/Ic1lkdsQPQvb+wLoWbFcm5bP/9oADAMBAAIAAwAAABCUD//EABcRAQADAAAAAAAAAAAAAAAAAAARIVH/2gAIAQMBAT8Qshj/xAAXEQEAAwAAAAAAAAAAAAAAAAAAARFh/9oACAECAQE/EIU0f//EABsQAQEAAwADAAAAAAAAAAAAAAERACExQXGR/9oACAEBAAE/EKUzrEDZ0ezCb1eCkx+5ILW/GDFCUPctLK3eat79mf/Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 55.4054054054054%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAUCAwT/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/aAAwDAQACEAMQAAABuxrYQ3FAv//EABoQAAMBAAMAAAAAAAAAAAAAAAECEQMAEBP/2gAIAQEAAQUCHiyMmUXDMikct6//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARH/2gAIAQMBAT8BrX//xAAWEQEBAQAAAAAAAAAAAAAAAAAAARL/2gAIAQIBAT8BjNf/xAAbEAACAQUAAAAAAAAAAAAAAAAAASECEDJhkf/aAAgBAQAGPwJwuGzKkh3/AP/EABsQAQADAAMBAAAAAAAAAAAAAAEAESExQVHx/9oACAEBAAE/Ic1lkd8QPQPb+wPoWbFcm5bP/9oADAMBAAIAAwAAABCXD//EABcRAQADAAAAAAAAAAAAAAAAAAARIVH/2gAIAQMBAT8Qshj/xAAWEQEBAQAAAAAAAAAAAAAAAAAAIWH/2gAIAQIBAT8Qho//xAAcEAEBAAICAwAAAAAAAAAAAAABEQAhMVFBcZH/2gAIAQEAAT8QpTOsQNnI9YDerwUmJ2JBa34wQoSh5y0srd53R9mf/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -485,7 +485,7 @@ At this event, we were invited to share our experience using serverless architec
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAFwABAQEBAAAAAAAAAAAAAAAAAwACBP/EABUBAQEAAAAAAAAAAAAAAAAAAAIB/9oADAMBAAIQAxAAAAHKcDlnFU//xAAaEAACAwEBAAAAAAAAAAAAAAABAgADEhMz/9oACAEBAAEFAulc2meiggR/GxF3/8QAFhEBAQEAAAAAAAAAAAAAAAAAARAR/9oACAEDAQE/AUyf/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAGxAAAgIDAQAAAAAAAAAAAAAAAAERIQIQMXH/2gAIAQEABj8C7aJHOsvR0f/EABwQAQADAAIDAAAAAAAAAAAAAAEAESFBUXGRof/aAAgBAQABPyFegoDs8slyodshZkNV8IPcJV9T/9oADAMBAAIAAwAAABAM3//EABcRAAMBAAAAAAAAAAAAAAAAAAABEVH/2gAIAQMBAT8QiT0p/8QAFREBAQAAAAAAAAAAAAAAAAAAEBH/2gAIAQIBAT8Qp//EABwQAQACAwEBAQAAAAAAAAAAAAEAESExUUFhkf/aAAgBAQABPxB5rBA1e4eZthc/P2NDThyibItpdm8+9hIsVgcAUMQRoLGhcn//2Q==&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 56.08108108108109%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAALABQDASIAAhEBAxEB/8QAGAAAAgMAAAAAAAAAAAAAAAAAAAMCBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAACAf/aAAwDAQACEAMQAAABizPsFrFFP//EABoQAAIDAQEAAAAAAAAAAAAAAAECAAMSEzP/2gAIAQEAAQUC6VzaZ6KCBH8bEXf/xAAWEQEBAQAAAAAAAAAAAAAAAAABEBH/2gAIAQMBAT8BTJ//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAbEAACAgMBAAAAAAAAAAAAAAAAAREhAhAxcf/aAAgBAQAGPwLtokc6y9HR/8QAHBABAAMAAgMAAAAAAAAAAAAAAQARIUFRcZGh/9oACAEBAAE/IV6CgOzyyXKh2yFmQ1Xwg9wlX1P/2gAMAwEAAgADAAAAECzf/8QAFxEAAwEAAAAAAAAAAAAAAAAAAAERUf/aAAgBAwEBPxCJPSn/xAAVEQEBAAAAAAAAAAAAAAAAAAAQEf/aAAgBAgEBPxCn/8QAHBABAAIDAQEBAAAAAAAAAAAAAREhADFRQWGR/9oACAEBAAE/EHmqIKnZh5m2Fv5+4wNOHIM2YZSZN373CRIjA0BSsEYCZgXM/9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
@@ -525,7 +525,7 @@ API version management&lt;/p&gt;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHcR5xUUr//xAAZEAADAAMAAAAAAAAAAAAAAAAAAREhMUH/2gAIAQEAAQUCyV2j11pH/8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAwEBPwE//8QAFBEBAAAAAAAAAAAAAAAAAAAAEP/aAAgBAgEBPwE//8QAFhAAAwAAAAAAAAAAAAAAAAAAAAEg/9oACAEBAAY/Ahz/AP/EABoQAQACAwEAAAAAAAAAAAAAAAEAERAhMUH/2gAIAQEAAT8hGmi4cQuh7A1tBwC+ox2E/9oADAMBAAIAAwAAABAcz//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAEDAQE/ECf/xAAVEQEBAAAAAAAAAAAAAAAAAAABEP/aAAgBAgEBPxBn/8QAGxABAQADAQEBAAAAAAAAAAAAAREAITFBUXH/2gAIAQEAAT8QqfR7zEWMyWxj5MGNQ2XmNFFPzJO20HeUKmdTP//Z&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 52.02702702702703%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAAKABQDASIAAhEBAxEB/8QAFwAAAwEAAAAAAAAAAAAAAAAAAAIDBf/EABUBAQEAAAAAAAAAAAAAAAAAAAAB/9oADAMBAAIQAxAAAAHcR5xUUr//xAAYEAEAAwEAAAAAAAAAAAAAAAABABExIf/aAAgBAQABBQLstu44ahP/xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAEDAQE/AT//xAAUEQEAAAAAAAAAAAAAAAAAAAAQ/9oACAECAQE/AT//xAAXEAEAAwAAAAAAAAAAAAAAAAAAASAh/9oACAEBAAY/Aktp/8QAGhABAAIDAQAAAAAAAAAAAAAAAQARECExQf/aAAgBAQABPyEaaLhxC6HsDWwOJPqMdhP/2gAMAwEAAgADAAAAEAzP/8QAFREBAQAAAAAAAAAAAAAAAAAAARD/2gAIAQMBAT8QJ//EABURAQEAAAAAAAAAAAAAAAAAAAEQ/9oACAECAQE/EGf/xAAbEAEBAAMBAQEAAAAAAAAAAAABEQAhMUFRcf/aAAgBAQABPxCp9HvMRYzJbHfkwY0DZeYkUU/MitVQd5UqZ1M//9k=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
